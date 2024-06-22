@@ -1,0 +1,5079 @@
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://1273802616"
+sound.Parent = game:GetService("SoundService")
+sound:Play()
+
+local Converted = {
+	["_Gui"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_UICorner"] = Instance.new("UICorner");
+	["_Tittle"] = Instance.new("TextLabel");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_ImageLabel1"] = Instance.new("ImageLabel");
+	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
+	["_BringMuffy"] = Instance.new("TextButton");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_Bringsocky"] = Instance.new("TextButton");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_UIStroke3"] = Instance.new("UIStroke");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_bringdoge"] = Instance.new("TextButton");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_UIStroke4"] = Instance.new("UIStroke");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_bringgirl"] = Instance.new("TextButton");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_UIStroke5"] = Instance.new("UIStroke");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_Fly"] = Instance.new("TextButton");
+	["_UICorner6"] = Instance.new("UICorner");
+	["_UIStroke6"] = Instance.new("UIStroke");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_Explodemuffy"] = Instance.new("TextButton");
+	["_UICorner7"] = Instance.new("UICorner");
+	["_UIStroke7"] = Instance.new("UIStroke");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_explode socky"] = Instance.new("TextButton");
+	["_UICorner8"] = Instance.new("UICorner");
+	["_UIStroke8"] = Instance.new("UIStroke");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_UIGridLayout"] = Instance.new("UIGridLayout");
+	["_GOTO MUFFY"] = Instance.new("TextButton");
+	["_UICorner9"] = Instance.new("UICorner");
+	["_UIStroke9"] = Instance.new("UIStroke");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_GOTO SOCKY"] = Instance.new("TextButton");
+	["_UICorner10"] = Instance.new("UICorner");
+	["_UIStroke10"] = Instance.new("UIStroke");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_goto girl"] = Instance.new("TextButton");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_UIStroke11"] = Instance.new("UIStroke");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_goto dog"] = Instance.new("TextButton");
+	["_UICorner12"] = Instance.new("UICorner");
+	["_UIStroke12"] = Instance.new("UIStroke");
+	["_LocalScript10"] = Instance.new("LocalScript");
+	["_GOTO CAT"] = Instance.new("TextButton");
+	["_UICorner13"] = Instance.new("UICorner");
+	["_UIStroke13"] = Instance.new("UIStroke");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_brignalldogs"] = Instance.new("TextButton");
+	["_UICorner14"] = Instance.new("UICorner");
+	["_UIStroke14"] = Instance.new("UIStroke");
+	["_LocalScript12"] = Instance.new("LocalScript");
+	["_CONTROLMUFFY"] = Instance.new("TextButton");
+	["_UICorner15"] = Instance.new("UICorner");
+	["_UIStroke15"] = Instance.new("UIStroke");
+	["_LocalScript13"] = Instance.new("LocalScript");
+	["_CONTROLSOCKY"] = Instance.new("TextButton");
+	["_UICorner16"] = Instance.new("UICorner");
+	["_UIStroke16"] = Instance.new("UIStroke");
+	["_LocalScript14"] = Instance.new("LocalScript");
+	["_barksound"] = Instance.new("TextButton");
+	["_UICorner17"] = Instance.new("UICorner");
+	["_UIStroke17"] = Instance.new("UIStroke");
+	["_LocalScript15"] = Instance.new("LocalScript");
+	["_loopbark"] = Instance.new("TextButton");
+	["_UICorner18"] = Instance.new("UICorner");
+	["_UIStroke18"] = Instance.new("UIStroke");
+	["_LocalScript16"] = Instance.new("LocalScript");
+	["_LIGHTNINGSOUND"] = Instance.new("TextButton");
+	["_UICorner19"] = Instance.new("UICorner");
+	["_UIStroke19"] = Instance.new("UIStroke");
+	["_LocalScript17"] = Instance.new("LocalScript");
+	["_looplightningsound"] = Instance.new("TextButton");
+	["_UICorner20"] = Instance.new("UICorner");
+	["_UIStroke20"] = Instance.new("UIStroke");
+	["_LocalScript18"] = Instance.new("LocalScript");
+	["_WOW SOUND"] = Instance.new("TextButton");
+	["_UICorner21"] = Instance.new("UICorner");
+	["_UIStroke21"] = Instance.new("UIStroke");
+	["_LocalScript19"] = Instance.new("LocalScript");
+	["_LOOPWOWSOUND"] = Instance.new("TextButton");
+	["_UICorner22"] = Instance.new("UICorner");
+	["_UIStroke22"] = Instance.new("UIStroke");
+	["_LocalScript20"] = Instance.new("LocalScript");
+	["_THUNDER"] = Instance.new("TextButton");
+	["_UICorner23"] = Instance.new("UICorner");
+	["_UIStroke23"] = Instance.new("UIStroke");
+	["_LocalScript21"] = Instance.new("LocalScript");
+	["_LOOP THUNDER"] = Instance.new("TextButton");
+	["_UICorner24"] = Instance.new("UICorner");
+	["_UIStroke24"] = Instance.new("UIStroke");
+	["_LocalScript22"] = Instance.new("LocalScript");
+	["_UICorner25"] = Instance.new("UICorner");
+	["_stoploopthuner"] = Instance.new("TextButton");
+	["_UICorner26"] = Instance.new("UICorner");
+	["_UIStroke25"] = Instance.new("UIStroke");
+	["_LocalScript23"] = Instance.new("LocalScript");
+	["_STOPBARKSOUND"] = Instance.new("TextButton");
+	["_UICorner27"] = Instance.new("UICorner");
+	["_UIStroke26"] = Instance.new("UIStroke");
+	["_LocalScript24"] = Instance.new("LocalScript");
+	["_STOPLOOPLIGHTNING"] = Instance.new("TextButton");
+	["_UICorner28"] = Instance.new("UICorner");
+	["_UIStroke27"] = Instance.new("UIStroke");
+	["_LocalScript25"] = Instance.new("LocalScript");
+	["_STOPBARK"] = Instance.new("TextButton");
+	["_UICorner29"] = Instance.new("UICorner");
+	["_UIStroke28"] = Instance.new("UIStroke");
+	["_LocalScript26"] = Instance.new("LocalScript");
+	["_STOPLOOPBARTKSOUND"] = Instance.new("TextButton");
+	["_UICorner30"] = Instance.new("UICorner");
+	["_UIStroke29"] = Instance.new("UIStroke");
+	["_LocalScript27"] = Instance.new("LocalScript");
+	["_capespam"] = Instance.new("TextButton");
+	["_UICorner31"] = Instance.new("UICorner");
+	["_UIStroke30"] = Instance.new("UIStroke");
+	["_LocalScript28"] = Instance.new("LocalScript");
+	["_GSPOAM"] = Instance.new("TextButton");
+	["_UICorner32"] = Instance.new("UICorner");
+	["_UIStroke31"] = Instance.new("UIStroke");
+	["_LocalScript29"] = Instance.new("LocalScript");
+	["_TSPAM"] = Instance.new("TextButton");
+	["_UICorner33"] = Instance.new("UICorner");
+	["_UIStroke32"] = Instance.new("UIStroke");
+	["_LocalScript30"] = Instance.new("LocalScript");
+	["_CSSPAM"] = Instance.new("TextButton");
+	["_UICorner34"] = Instance.new("UICorner");
+	["_UIStroke33"] = Instance.new("UIStroke");
+	["_LocalScript31"] = Instance.new("LocalScript");
+	["_SPEED1"] = Instance.new("TextButton");
+	["_UICorner35"] = Instance.new("UICorner");
+	["_UIStroke34"] = Instance.new("UIStroke");
+	["_LocalScript32"] = Instance.new("LocalScript");
+	["_SPEED2"] = Instance.new("TextButton");
+	["_UICorner36"] = Instance.new("UICorner");
+	["_UIStroke35"] = Instance.new("UIStroke");
+	["_LocalScript33"] = Instance.new("LocalScript");
+	["_JUMP1"] = Instance.new("TextButton");
+	["_UICorner37"] = Instance.new("UICorner");
+	["_UIStroke36"] = Instance.new("UIStroke");
+	["_LocalScript34"] = Instance.new("LocalScript");
+	["_JUMP2"] = Instance.new("TextButton");
+	["_UICorner38"] = Instance.new("UICorner");
+	["_UIStroke37"] = Instance.new("UIStroke");
+	["_LocalScript35"] = Instance.new("LocalScript");
+	["_flash"] = Instance.new("TextButton");
+	["_UICorner39"] = Instance.new("UICorner");
+	["_UIStroke38"] = Instance.new("UIStroke");
+	["_LocalScript36"] = Instance.new("LocalScript");
+	["_unflash"] = Instance.new("TextButton");
+	["_UICorner40"] = Instance.new("UICorner");
+	["_UIStroke39"] = Instance.new("UIStroke");
+	["_LocalScript37"] = Instance.new("LocalScript");
+	["_FDAY"] = Instance.new("TextButton");
+	["_UICorner41"] = Instance.new("UICorner");
+	["_UIStroke40"] = Instance.new("UIStroke");
+	["_LocalScript38"] = Instance.new("LocalScript");
+	["_fnihgt"] = Instance.new("TextButton");
+	["_UICorner42"] = Instance.new("UICorner");
+	["_UIStroke41"] = Instance.new("UIStroke");
+	["_LocalScript39"] = Instance.new("LocalScript");
+	["_digmuf"] = Instance.new("TextButton");
+	["_UICorner43"] = Instance.new("UICorner");
+	["_UIStroke42"] = Instance.new("UIStroke");
+	["_LocalScript40"] = Instance.new("LocalScript");
+	["_DIGSOCKY"] = Instance.new("TextButton");
+	["_UICorner44"] = Instance.new("UICorner");
+	["_UIStroke43"] = Instance.new("UIStroke");
+	["_LocalScript41"] = Instance.new("LocalScript");
+	["_OLD ANIMATIONS"] = Instance.new("TextButton");
+	["_UICorner45"] = Instance.new("UICorner");
+	["_UIStroke44"] = Instance.new("UIStroke");
+	["_LocalScript42"] = Instance.new("LocalScript");
+	["_NORMAL ANIMS"] = Instance.new("TextButton");
+	["_UICorner46"] = Instance.new("UICorner");
+	["_UIStroke45"] = Instance.new("UIStroke");
+	["_LocalScript43"] = Instance.new("LocalScript");
+	["_noclip"] = Instance.new("TextButton");
+	["_UICorner47"] = Instance.new("UICorner");
+	["_UIStroke46"] = Instance.new("UIStroke");
+	["_LocalScript44"] = Instance.new("LocalScript");
+	["_r15"] = Instance.new("TextButton");
+	["_UICorner48"] = Instance.new("UICorner");
+	["_UIStroke47"] = Instance.new("UIStroke");
+	["_LocalScript45"] = Instance.new("LocalScript");
+	["_R6"] = Instance.new("TextButton");
+	["_UICorner49"] = Instance.new("UICorner");
+	["_UIStroke48"] = Instance.new("UIStroke");
+	["_LocalScript46"] = Instance.new("LocalScript");
+	["_voidsocky"] = Instance.new("TextButton");
+	["_UICorner50"] = Instance.new("UICorner");
+	["_UIStroke49"] = Instance.new("UIStroke");
+	["_LocalScript47"] = Instance.new("LocalScript");
+	["_void myf"] = Instance.new("TextButton");
+	["_UICorner51"] = Instance.new("UICorner");
+	["_UIStroke50"] = Instance.new("UIStroke");
+	["_LocalScript48"] = Instance.new("LocalScript");
+	["_BRAEKACH"] = Instance.new("TextButton");
+	["_UICorner52"] = Instance.new("UICorner");
+	["_UIStroke51"] = Instance.new("UIStroke");
+	["_LocalScript49"] = Instance.new("LocalScript");
+	["_freeze"] = Instance.new("TextButton");
+	["_UICorner53"] = Instance.new("UICorner");
+	["_UIStroke52"] = Instance.new("UIStroke");
+	["_LocalScript50"] = Instance.new("LocalScript");
+	["_UNFREEZE"] = Instance.new("TextButton");
+	["_UICorner54"] = Instance.new("UICorner");
+	["_UIStroke53"] = Instance.new("UIStroke");
+	["_LocalScript51"] = Instance.new("LocalScript");
+	["_veroipsm"] = Instance.new("TextButton");
+	["_UICorner55"] = Instance.new("UICorner");
+	["_UIStroke54"] = Instance.new("UIStroke");
+	["_LocalScript52"] = Instance.new("LocalScript");
+	["_owners"] = Instance.new("TextButton");
+	["_UICorner56"] = Instance.new("UICorner");
+	["_UIStroke55"] = Instance.new("UIStroke");
+	["_LocalScript53"] = Instance.new("LocalScript");
+	["_grabmuf"] = Instance.new("TextButton");
+	["_UICorner57"] = Instance.new("UICorner");
+	["_UIStroke56"] = Instance.new("UIStroke");
+	["_LocalScript54"] = Instance.new("LocalScript");
+	["_grabsock"] = Instance.new("TextButton");
+	["_UICorner58"] = Instance.new("UICorner");
+	["_UIStroke57"] = Instance.new("UIStroke");
+	["_LocalScript55"] = Instance.new("LocalScript");
+	["_dingsound"] = Instance.new("TextButton");
+	["_UICorner59"] = Instance.new("UICorner");
+	["_UIStroke58"] = Instance.new("UIStroke");
+	["_LocalScript56"] = Instance.new("LocalScript");
+	["_COIL SOUND"] = Instance.new("TextButton");
+	["_UICorner60"] = Instance.new("UICorner");
+	["_UIStroke59"] = Instance.new("UIStroke");
+	["_LocalScript57"] = Instance.new("LocalScript");
+	["_woosh"] = Instance.new("TextButton");
+	["_UICorner61"] = Instance.new("UICorner");
+	["_UIStroke60"] = Instance.new("UIStroke");
+	["_LocalScript58"] = Instance.new("LocalScript");
+	["_woosh1"] = Instance.new("TextButton");
+	["_UICorner62"] = Instance.new("UICorner");
+	["_UIStroke61"] = Instance.new("UIStroke");
+	["_LocalScript59"] = Instance.new("LocalScript");
+	["_ungmuf"] = Instance.new("TextButton");
+	["_UICorner63"] = Instance.new("UICorner");
+	["_UIStroke62"] = Instance.new("UIStroke");
+	["_LocalScript60"] = Instance.new("LocalScript");
+	["_unfsock"] = Instance.new("TextButton");
+	["_UICorner64"] = Instance.new("UICorner");
+	["_UIStroke63"] = Instance.new("UIStroke");
+	["_LocalScript61"] = Instance.new("LocalScript");
+	["_REJOIN"] = Instance.new("TextButton");
+	["_UICorner65"] = Instance.new("UICorner");
+	["_UIStroke64"] = Instance.new("UIStroke");
+	["_LocalScript62"] = Instance.new("LocalScript");
+	["_RESET"] = Instance.new("TextButton");
+	["_UICorner66"] = Instance.new("UICorner");
+	["_LocalScript63"] = Instance.new("LocalScript");
+	["_UIStroke65"] = Instance.new("UIStroke");
+	["_dc"] = Instance.new("TextButton");
+	["_UICorner67"] = Instance.new("UICorner");
+	["_UIStroke66"] = Instance.new("UIStroke");
+	["_LocalScript64"] = Instance.new("LocalScript");
+	["_LocalScript65"] = Instance.new("LocalScript");
+	["_UIStroke67"] = Instance.new("UIStroke");
+	["_Close"] = Instance.new("TextButton");
+	["_UICorner68"] = Instance.new("UICorner");
+	["_LocalScript66"] = Instance.new("LocalScript");
+	["_UIStroke68"] = Instance.new("UIStroke");
+	["_MINIMUZE"] = Instance.new("TextButton");
+	["_UICorner69"] = Instance.new("UICorner");
+	["_LocalScript67"] = Instance.new("LocalScript");
+	["_UIStroke69"] = Instance.new("UIStroke");
+	["_version"] = Instance.new("ScreenGui");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint"] = Instance.new("UITextSizeConstraint");
+	["_ImageLabel2"] = Instance.new("ImageLabel");
+	["_UICorner70"] = Instance.new("UICorner");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_UICorner71"] = Instance.new("UICorner");
+	["_ImageButton"] = Instance.new("ImageButton");
+	["_UICorner72"] = Instance.new("UICorner");
+	["_LocalScript68"] = Instance.new("LocalScript");
+	["_UIStroke70"] = Instance.new("UIStroke");
+	["_UICorner73"] = Instance.new("UICorner");
+	["_LocalScript69"] = Instance.new("LocalScript");
+	["_ImageLabel3"] = Instance.new("ImageLabel");
+	["_UICorner74"] = Instance.new("UICorner");
+	["_UIStroke71"] = Instance.new("UIStroke");
+	["_owner"] = Instance.new("ScreenGui");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint1"] = Instance.new("UITextSizeConstraint");
+	["_ImageLabel4"] = Instance.new("ImageLabel");
+	["_UICorner75"] = Instance.new("UICorner");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_UICorner76"] = Instance.new("UICorner");
+	["_ImageButton1"] = Instance.new("ImageButton");
+	["_UICorner77"] = Instance.new("UICorner");
+	["_LocalScript70"] = Instance.new("LocalScript");
+	["_UIStroke72"] = Instance.new("UIStroke");
+	["_UICorner78"] = Instance.new("UICorner");
+	["_LocalScript71"] = Instance.new("LocalScript");
+	["_open"] = Instance.new("ScreenGui");
+	["_TextButton"] = Instance.new("TextButton");
+	["_UIStroke73"] = Instance.new("UIStroke");
+	["_UICorner79"] = Instance.new("UICorner");
+	["_LocalScript72"] = Instance.new("LocalScript");
+	["_discord"] = Instance.new("ScreenGui");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_UITextSizeConstraint2"] = Instance.new("UITextSizeConstraint");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_UICorner80"] = Instance.new("UICorner");
+	["_ImageButton2"] = Instance.new("ImageButton");
+	["_UICorner81"] = Instance.new("UICorner");
+	["_LocalScript73"] = Instance.new("LocalScript");
+	["_UIStroke74"] = Instance.new("UIStroke");
+	["_UICorner82"] = Instance.new("UICorner");
+	["_LocalScript74"] = Instance.new("LocalScript");
+}
+
+-- Properties:
+
+Converted["_Gui"].ResetOnSpawn = false
+Converted["_Gui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_Gui"].Name = "Gui"
+Converted["_Gui"].Parent = game:GetService("CoreGui")
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(0.0404708609, 0, 0.267349511, 0)
+Converted["_Frame"].Size = UDim2.new(0, 720, 0, 490)
+Converted["_Frame"].Parent = Converted["_Gui"]
+
+Converted["_UICorner"].Parent = Converted["_Frame"]
+
+Converted["_Tittle"].Font = Enum.Font.LuckiestGuy
+Converted["_Tittle"].Text = "FEDORA GUI BETA"
+Converted["_Tittle"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tittle"].TextScaled = true
+Converted["_Tittle"].TextSize = 14
+Converted["_Tittle"].TextWrapped = true
+Converted["_Tittle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tittle"].BackgroundTransparency = 1
+Converted["_Tittle"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Tittle"].BorderSizePixel = 0
+Converted["_Tittle"].Position = UDim2.new(0.307043612, 0, 0.0174980946, 0)
+Converted["_Tittle"].Size = UDim2.new(0, 383, 0, 45)
+Converted["_Tittle"].Name = "Tittle"
+Converted["_Tittle"].Parent = Converted["_Frame"]
+
+Converted["_UICorner1"].Parent = Converted["_Tittle"]
+
+Converted["_ImageLabel"].Image = "rbxassetid://18109675767"
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel"].BorderSizePixel = 0
+Converted["_ImageLabel"].Position = UDim2.new(0.17838338, 0, 0.0021413276, 0)
+Converted["_ImageLabel"].Size = UDim2.new(0, 70, 0, 62)
+Converted["_ImageLabel"].Parent = Converted["_Frame"]
+
+Converted["_UIStroke"].Parent = Converted["_ImageLabel"]
+
+Converted["_ImageLabel1"].Image = "rbxassetid://18109675767"
+Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel1"].BorderSizePixel = 0
+Converted["_ImageLabel1"].Position = UDim2.new(0.889245391, 0, 0.0021413276, 0)
+Converted["_ImageLabel1"].Size = UDim2.new(0, 70, 0, 62)
+Converted["_ImageLabel1"].Parent = Converted["_Frame"]
+
+Converted["_ScrollingFrame"].CanvasPosition = Vector2.new(0, 300)
+Converted["_ScrollingFrame"].CanvasSize = UDim2.new(0, 0, 4, 0)
+Converted["_ScrollingFrame"].HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].ScrollBarThickness = 5
+Converted["_ScrollingFrame"].Active = true
+Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].BorderSizePixel = 0
+Converted["_ScrollingFrame"].Position = UDim2.new(0.0549505427, 0, 0.128671944, 0)
+Converted["_ScrollingFrame"].Size = UDim2.new(0, 651, 0, 407)
+Converted["_ScrollingFrame"].Parent = Converted["_Frame"]
+
+Converted["_BringMuffy"].Font = Enum.Font.FredokaOne
+Converted["_BringMuffy"].Text = "BRING MUFFY"
+Converted["_BringMuffy"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_BringMuffy"].TextSize = 14
+Converted["_BringMuffy"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_BringMuffy"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_BringMuffy"].BorderSizePixel = 0
+Converted["_BringMuffy"].Position = UDim2.new(0.0409356728, 0, 0.0181675889, 0)
+Converted["_BringMuffy"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_BringMuffy"].Name = "BringMuffy"
+Converted["_BringMuffy"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner2"].Parent = Converted["_BringMuffy"]
+
+Converted["_UIStroke1"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke1"].Parent = Converted["_BringMuffy"]
+
+Converted["_UIStroke2"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke2"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_Bringsocky"].Font = Enum.Font.FredokaOne
+Converted["_Bringsocky"].Text = "BRING SOCKY"
+Converted["_Bringsocky"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Bringsocky"].TextSize = 14
+Converted["_Bringsocky"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_Bringsocky"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Bringsocky"].BorderSizePixel = 0
+Converted["_Bringsocky"].Position = UDim2.new(0.0409356728, 0, 0.0788789764, 0)
+Converted["_Bringsocky"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_Bringsocky"].Name = "Bringsocky"
+Converted["_Bringsocky"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner3"].Parent = Converted["_Bringsocky"]
+
+Converted["_UIStroke3"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke3"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke3"].Parent = Converted["_Bringsocky"]
+
+Converted["_bringdoge"].Font = Enum.Font.FredokaOne
+Converted["_bringdoge"].Text = "BRING DOG"
+Converted["_bringdoge"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_bringdoge"].TextSize = 14
+Converted["_bringdoge"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_bringdoge"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_bringdoge"].BorderSizePixel = 0
+Converted["_bringdoge"].Position = UDim2.new(0.0409356728, 0, 0.138424024, 0)
+Converted["_bringdoge"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_bringdoge"].Name = "bringdoge"
+Converted["_bringdoge"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner4"].Parent = Converted["_bringdoge"]
+
+Converted["_UIStroke4"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke4"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke4"].Parent = Converted["_bringdoge"]
+
+Converted["_bringgirl"].Font = Enum.Font.FredokaOne
+Converted["_bringgirl"].Text = "BRING GIRL"
+Converted["_bringgirl"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_bringgirl"].TextSize = 14
+Converted["_bringgirl"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_bringgirl"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_bringgirl"].BorderSizePixel = 0
+Converted["_bringgirl"].Position = UDim2.new(0.0409356728, 0, 0.202608868, 0)
+Converted["_bringgirl"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_bringgirl"].Name = "bringgirl"
+Converted["_bringgirl"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner5"].Parent = Converted["_bringgirl"]
+
+Converted["_UIStroke5"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke5"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke5"].Parent = Converted["_bringgirl"]
+
+Converted["_Fly"].Font = Enum.Font.FredokaOne
+Converted["_Fly"].Text = "FLY"
+Converted["_Fly"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Fly"].TextSize = 14
+Converted["_Fly"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_Fly"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Fly"].BorderSizePixel = 0
+Converted["_Fly"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_Fly"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_Fly"].Name = "Fly"
+Converted["_Fly"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner6"].Parent = Converted["_Fly"]
+
+Converted["_UIStroke6"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke6"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke6"].Parent = Converted["_Fly"]
+
+Converted["_Explodemuffy"].Font = Enum.Font.FredokaOne
+Converted["_Explodemuffy"].Text = "EXPLODE MUFFY"
+Converted["_Explodemuffy"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Explodemuffy"].TextSize = 14
+Converted["_Explodemuffy"].TextWrapped = true
+Converted["_Explodemuffy"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_Explodemuffy"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Explodemuffy"].BorderSizePixel = 0
+Converted["_Explodemuffy"].Position = UDim2.new(0.441520482, 0, 0.079911612, 0)
+Converted["_Explodemuffy"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_Explodemuffy"].Name = "Explodemuffy"
+Converted["_Explodemuffy"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner7"].Parent = Converted["_Explodemuffy"]
+
+Converted["_UIStroke7"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke7"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke7"].Parent = Converted["_Explodemuffy"]
+
+Converted["_explode socky"].Font = Enum.Font.FredokaOne
+Converted["_explode socky"].Text = "EXPLODE SOCKY"
+Converted["_explode socky"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_explode socky"].TextSize = 14
+Converted["_explode socky"].TextWrapped = true
+Converted["_explode socky"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_explode socky"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_explode socky"].BorderSizePixel = 0
+Converted["_explode socky"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_explode socky"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_explode socky"].Name = "explode socky"
+Converted["_explode socky"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner8"].Parent = Converted["_explode socky"]
+
+Converted["_UIStroke8"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke8"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke8"].Parent = Converted["_explode socky"]
+
+Converted["_UIGridLayout"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_GOTO MUFFY"].Font = Enum.Font.FredokaOne
+Converted["_GOTO MUFFY"].Text = "GOTO MUFFY"
+Converted["_GOTO MUFFY"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GOTO MUFFY"].TextSize = 14
+Converted["_GOTO MUFFY"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_GOTO MUFFY"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GOTO MUFFY"].BorderSizePixel = 0
+Converted["_GOTO MUFFY"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_GOTO MUFFY"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_GOTO MUFFY"].Name = "GOTO MUFFY"
+Converted["_GOTO MUFFY"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner9"].Parent = Converted["_GOTO MUFFY"]
+
+Converted["_UIStroke9"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke9"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke9"].Parent = Converted["_GOTO MUFFY"]
+
+Converted["_GOTO SOCKY"].Font = Enum.Font.FredokaOne
+Converted["_GOTO SOCKY"].Text = "GOTO SOCKY"
+Converted["_GOTO SOCKY"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GOTO SOCKY"].TextSize = 14
+Converted["_GOTO SOCKY"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_GOTO SOCKY"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GOTO SOCKY"].BorderSizePixel = 0
+Converted["_GOTO SOCKY"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_GOTO SOCKY"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_GOTO SOCKY"].Name = "GOTO SOCKY"
+Converted["_GOTO SOCKY"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner10"].Parent = Converted["_GOTO SOCKY"]
+
+Converted["_UIStroke10"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke10"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke10"].Parent = Converted["_GOTO SOCKY"]
+
+Converted["_goto girl"].Font = Enum.Font.FredokaOne
+Converted["_goto girl"].Text = "GOTO GIRL"
+Converted["_goto girl"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_goto girl"].TextSize = 14
+Converted["_goto girl"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_goto girl"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_goto girl"].BorderSizePixel = 0
+Converted["_goto girl"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_goto girl"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_goto girl"].Name = "goto girl"
+Converted["_goto girl"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner11"].Parent = Converted["_goto girl"]
+
+Converted["_UIStroke11"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke11"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke11"].Parent = Converted["_goto girl"]
+
+Converted["_goto dog"].Font = Enum.Font.FredokaOne
+Converted["_goto dog"].Text = "GOTO DOG"
+Converted["_goto dog"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_goto dog"].TextSize = 14
+Converted["_goto dog"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_goto dog"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_goto dog"].BorderSizePixel = 0
+Converted["_goto dog"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_goto dog"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_goto dog"].Name = "goto dog"
+Converted["_goto dog"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner12"].Parent = Converted["_goto dog"]
+
+Converted["_UIStroke12"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke12"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke12"].Parent = Converted["_goto dog"]
+
+Converted["_GOTO CAT"].Font = Enum.Font.FredokaOne
+Converted["_GOTO CAT"].Text = "GOTO CAT"
+Converted["_GOTO CAT"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GOTO CAT"].TextSize = 14
+Converted["_GOTO CAT"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_GOTO CAT"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GOTO CAT"].BorderSizePixel = 0
+Converted["_GOTO CAT"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_GOTO CAT"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_GOTO CAT"].Name = "GOTO CAT"
+Converted["_GOTO CAT"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner13"].Parent = Converted["_GOTO CAT"]
+
+Converted["_UIStroke13"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke13"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke13"].Parent = Converted["_GOTO CAT"]
+
+Converted["_brignalldogs"].Font = Enum.Font.FredokaOne
+Converted["_brignalldogs"].Text = "BRING ALL DOGS"
+Converted["_brignalldogs"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_brignalldogs"].TextSize = 14
+Converted["_brignalldogs"].TextWrapped = true
+Converted["_brignalldogs"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_brignalldogs"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_brignalldogs"].BorderSizePixel = 0
+Converted["_brignalldogs"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_brignalldogs"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_brignalldogs"].Name = "brignalldogs"
+Converted["_brignalldogs"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner14"].Parent = Converted["_brignalldogs"]
+
+Converted["_UIStroke14"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke14"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke14"].Parent = Converted["_brignalldogs"]
+
+Converted["_CONTROLMUFFY"].Font = Enum.Font.FredokaOne
+Converted["_CONTROLMUFFY"].Text = "CONTROL SOCKY"
+Converted["_CONTROLMUFFY"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CONTROLMUFFY"].TextSize = 14
+Converted["_CONTROLMUFFY"].TextWrapped = true
+Converted["_CONTROLMUFFY"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_CONTROLMUFFY"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CONTROLMUFFY"].BorderSizePixel = 0
+Converted["_CONTROLMUFFY"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_CONTROLMUFFY"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_CONTROLMUFFY"].Name = "CONTROLMUFFY"
+Converted["_CONTROLMUFFY"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner15"].Parent = Converted["_CONTROLMUFFY"]
+
+Converted["_UIStroke15"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke15"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke15"].Parent = Converted["_CONTROLMUFFY"]
+
+Converted["_CONTROLSOCKY"].Font = Enum.Font.FredokaOne
+Converted["_CONTROLSOCKY"].Text = "CONTROL MUFFY"
+Converted["_CONTROLSOCKY"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CONTROLSOCKY"].TextSize = 14
+Converted["_CONTROLSOCKY"].TextWrapped = true
+Converted["_CONTROLSOCKY"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_CONTROLSOCKY"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CONTROLSOCKY"].BorderSizePixel = 0
+Converted["_CONTROLSOCKY"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_CONTROLSOCKY"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_CONTROLSOCKY"].Name = "CONTROLSOCKY"
+Converted["_CONTROLSOCKY"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner16"].Parent = Converted["_CONTROLSOCKY"]
+
+Converted["_UIStroke16"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke16"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke16"].Parent = Converted["_CONTROLSOCKY"]
+
+Converted["_barksound"].Font = Enum.Font.FredokaOne
+Converted["_barksound"].Text = "BARK SOUND"
+Converted["_barksound"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_barksound"].TextSize = 14
+Converted["_barksound"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_barksound"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_barksound"].BorderSizePixel = 0
+Converted["_barksound"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_barksound"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_barksound"].Name = "barksound"
+Converted["_barksound"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner17"].Parent = Converted["_barksound"]
+
+Converted["_UIStroke17"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke17"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke17"].Parent = Converted["_barksound"]
+
+Converted["_loopbark"].Font = Enum.Font.FredokaOne
+Converted["_loopbark"].Text = "LOOP BARK SOUND"
+Converted["_loopbark"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_loopbark"].TextSize = 14
+Converted["_loopbark"].TextWrapped = true
+Converted["_loopbark"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_loopbark"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_loopbark"].BorderSizePixel = 0
+Converted["_loopbark"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_loopbark"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_loopbark"].Name = "loopbark"
+Converted["_loopbark"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner18"].Parent = Converted["_loopbark"]
+
+Converted["_UIStroke18"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke18"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke18"].Parent = Converted["_loopbark"]
+
+Converted["_LIGHTNINGSOUND"].Font = Enum.Font.FredokaOne
+Converted["_LIGHTNINGSOUND"].Text = "LIGHTNINGSOUND"
+Converted["_LIGHTNINGSOUND"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LIGHTNINGSOUND"].TextSize = 14
+Converted["_LIGHTNINGSOUND"].TextWrapped = true
+Converted["_LIGHTNINGSOUND"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_LIGHTNINGSOUND"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LIGHTNINGSOUND"].BorderSizePixel = 0
+Converted["_LIGHTNINGSOUND"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_LIGHTNINGSOUND"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_LIGHTNINGSOUND"].Name = "LIGHTNINGSOUND"
+Converted["_LIGHTNINGSOUND"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner19"].Parent = Converted["_LIGHTNINGSOUND"]
+
+Converted["_UIStroke19"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke19"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke19"].Parent = Converted["_LIGHTNINGSOUND"]
+
+Converted["_looplightningsound"].Font = Enum.Font.FredokaOne
+Converted["_looplightningsound"].Text = "LOOP LIGHTNINGSOUND"
+Converted["_looplightningsound"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_looplightningsound"].TextSize = 14
+Converted["_looplightningsound"].TextWrapped = true
+Converted["_looplightningsound"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_looplightningsound"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_looplightningsound"].BorderSizePixel = 0
+Converted["_looplightningsound"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_looplightningsound"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_looplightningsound"].Name = "looplightningsound"
+Converted["_looplightningsound"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner20"].Parent = Converted["_looplightningsound"]
+
+Converted["_UIStroke20"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke20"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke20"].Parent = Converted["_looplightningsound"]
+
+Converted["_WOW SOUND"].Font = Enum.Font.FredokaOne
+Converted["_WOW SOUND"].Text = "WOW SOUND"
+Converted["_WOW SOUND"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_WOW SOUND"].TextSize = 14
+Converted["_WOW SOUND"].TextWrapped = true
+Converted["_WOW SOUND"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_WOW SOUND"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_WOW SOUND"].BorderSizePixel = 0
+Converted["_WOW SOUND"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_WOW SOUND"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_WOW SOUND"].Name = "WOW SOUND"
+Converted["_WOW SOUND"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner21"].Parent = Converted["_WOW SOUND"]
+
+Converted["_UIStroke21"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke21"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke21"].Parent = Converted["_WOW SOUND"]
+
+Converted["_LOOPWOWSOUND"].Font = Enum.Font.FredokaOne
+Converted["_LOOPWOWSOUND"].Text = "LOOP WOW SOUND"
+Converted["_LOOPWOWSOUND"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LOOPWOWSOUND"].TextSize = 14
+Converted["_LOOPWOWSOUND"].TextWrapped = true
+Converted["_LOOPWOWSOUND"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_LOOPWOWSOUND"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LOOPWOWSOUND"].BorderSizePixel = 0
+Converted["_LOOPWOWSOUND"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_LOOPWOWSOUND"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_LOOPWOWSOUND"].Name = "LOOPWOWSOUND"
+Converted["_LOOPWOWSOUND"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner22"].Parent = Converted["_LOOPWOWSOUND"]
+
+Converted["_UIStroke22"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke22"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke22"].Parent = Converted["_LOOPWOWSOUND"]
+
+Converted["_THUNDER"].Font = Enum.Font.FredokaOne
+Converted["_THUNDER"].Text = "THUNDER SOUND"
+Converted["_THUNDER"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_THUNDER"].TextSize = 14
+Converted["_THUNDER"].TextWrapped = true
+Converted["_THUNDER"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_THUNDER"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_THUNDER"].BorderSizePixel = 0
+Converted["_THUNDER"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_THUNDER"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_THUNDER"].Name = "THUNDER"
+Converted["_THUNDER"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner23"].Parent = Converted["_THUNDER"]
+
+Converted["_UIStroke23"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke23"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke23"].Parent = Converted["_THUNDER"]
+
+Converted["_LOOP THUNDER"].Font = Enum.Font.FredokaOne
+Converted["_LOOP THUNDER"].Text = "LOOP THUNDER SOUND"
+Converted["_LOOP THUNDER"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LOOP THUNDER"].TextSize = 14
+Converted["_LOOP THUNDER"].TextWrapped = true
+Converted["_LOOP THUNDER"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_LOOP THUNDER"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_LOOP THUNDER"].BorderSizePixel = 0
+Converted["_LOOP THUNDER"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_LOOP THUNDER"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_LOOP THUNDER"].Name = "LOOP THUNDER"
+Converted["_LOOP THUNDER"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner24"].Parent = Converted["_LOOP THUNDER"]
+
+Converted["_UIStroke24"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke24"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke24"].Parent = Converted["_LOOP THUNDER"]
+
+Converted["_UICorner25"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_stoploopthuner"].Font = Enum.Font.FredokaOne
+Converted["_stoploopthuner"].Text = "STOP THUNDER SOUND"
+Converted["_stoploopthuner"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_stoploopthuner"].TextSize = 14
+Converted["_stoploopthuner"].TextWrapped = true
+Converted["_stoploopthuner"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_stoploopthuner"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_stoploopthuner"].BorderSizePixel = 0
+Converted["_stoploopthuner"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_stoploopthuner"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_stoploopthuner"].Name = "stoploopthuner"
+Converted["_stoploopthuner"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner26"].Parent = Converted["_stoploopthuner"]
+
+Converted["_UIStroke25"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke25"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke25"].Parent = Converted["_stoploopthuner"]
+
+Converted["_STOPBARKSOUND"].Font = Enum.Font.FredokaOne
+Converted["_STOPBARKSOUND"].Text = "STOPBARKSOUND"
+Converted["_STOPBARKSOUND"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPBARKSOUND"].TextSize = 14
+Converted["_STOPBARKSOUND"].TextWrapped = true
+Converted["_STOPBARKSOUND"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_STOPBARKSOUND"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPBARKSOUND"].BorderSizePixel = 0
+Converted["_STOPBARKSOUND"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_STOPBARKSOUND"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_STOPBARKSOUND"].Name = "STOPBARKSOUND"
+Converted["_STOPBARKSOUND"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner27"].Parent = Converted["_STOPBARKSOUND"]
+
+Converted["_UIStroke26"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke26"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke26"].Parent = Converted["_STOPBARKSOUND"]
+
+Converted["_STOPLOOPLIGHTNING"].Font = Enum.Font.FredokaOne
+Converted["_STOPLOOPLIGHTNING"].Text = "STOPLIGHTNINGSOUND"
+Converted["_STOPLOOPLIGHTNING"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPLOOPLIGHTNING"].TextSize = 14
+Converted["_STOPLOOPLIGHTNING"].TextWrapped = true
+Converted["_STOPLOOPLIGHTNING"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_STOPLOOPLIGHTNING"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPLOOPLIGHTNING"].BorderSizePixel = 0
+Converted["_STOPLOOPLIGHTNING"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_STOPLOOPLIGHTNING"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_STOPLOOPLIGHTNING"].Name = "STOPLOOPLIGHTNING"
+Converted["_STOPLOOPLIGHTNING"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner28"].Parent = Converted["_STOPLOOPLIGHTNING"]
+
+Converted["_UIStroke27"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke27"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke27"].Parent = Converted["_STOPLOOPLIGHTNING"]
+
+Converted["_STOPBARK"].Font = Enum.Font.FredokaOne
+Converted["_STOPBARK"].Text = "STOP LOOP BARK SOUND"
+Converted["_STOPBARK"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPBARK"].TextSize = 14
+Converted["_STOPBARK"].TextWrapped = true
+Converted["_STOPBARK"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_STOPBARK"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPBARK"].BorderSizePixel = 0
+Converted["_STOPBARK"].Position = UDim2.new(0.0409356765, 0, 0.271937251, 0)
+Converted["_STOPBARK"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_STOPBARK"].Name = "STOPBARK"
+Converted["_STOPBARK"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner29"].Parent = Converted["_STOPBARK"]
+
+Converted["_UIStroke28"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke28"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke28"].Parent = Converted["_STOPBARK"]
+
+Converted["_STOPLOOPBARTKSOUND"].Font = Enum.Font.FredokaOne
+Converted["_STOPLOOPBARTKSOUND"].Text = "STOP LOOP BARK SOUND"
+Converted["_STOPLOOPBARTKSOUND"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPLOOPBARTKSOUND"].TextSize = 14
+Converted["_STOPLOOPBARTKSOUND"].TextWrapped = true
+Converted["_STOPLOOPBARTKSOUND"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_STOPLOOPBARTKSOUND"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_STOPLOOPBARTKSOUND"].BorderSizePixel = 0
+Converted["_STOPLOOPBARTKSOUND"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_STOPLOOPBARTKSOUND"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_STOPLOOPBARTKSOUND"].Name = "STOPLOOPBARTKSOUND"
+Converted["_STOPLOOPBARTKSOUND"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner30"].Parent = Converted["_STOPLOOPBARTKSOUND"]
+
+Converted["_UIStroke29"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke29"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke29"].Parent = Converted["_STOPLOOPBARTKSOUND"]
+
+Converted["_capespam"].Font = Enum.Font.FredokaOne
+Converted["_capespam"].Text = "SPAM CAPE TOOL"
+Converted["_capespam"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_capespam"].TextSize = 14
+Converted["_capespam"].TextWrapped = true
+Converted["_capespam"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_capespam"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_capespam"].BorderSizePixel = 0
+Converted["_capespam"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_capespam"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_capespam"].Name = "capespam"
+Converted["_capespam"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner31"].Parent = Converted["_capespam"]
+
+Converted["_UIStroke30"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke30"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke30"].Parent = Converted["_capespam"]
+
+Converted["_GSPOAM"].Font = Enum.Font.FredokaOne
+Converted["_GSPOAM"].Text = "SPAM GRVITY COIL TOOL"
+Converted["_GSPOAM"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GSPOAM"].TextSize = 14
+Converted["_GSPOAM"].TextWrapped = true
+Converted["_GSPOAM"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_GSPOAM"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GSPOAM"].BorderSizePixel = 0
+Converted["_GSPOAM"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_GSPOAM"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_GSPOAM"].Name = "GSPOAM"
+Converted["_GSPOAM"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner32"].Parent = Converted["_GSPOAM"]
+
+Converted["_UIStroke31"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke31"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke31"].Parent = Converted["_GSPOAM"]
+
+Converted["_TSPAM"].Font = Enum.Font.FredokaOne
+Converted["_TSPAM"].Text = "TELPORT TOOL SPAM"
+Converted["_TSPAM"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TSPAM"].TextSize = 14
+Converted["_TSPAM"].TextWrapped = true
+Converted["_TSPAM"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_TSPAM"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TSPAM"].BorderSizePixel = 0
+Converted["_TSPAM"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_TSPAM"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_TSPAM"].Name = "TSPAM"
+Converted["_TSPAM"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner33"].Parent = Converted["_TSPAM"]
+
+Converted["_UIStroke32"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke32"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke32"].Parent = Converted["_TSPAM"]
+
+Converted["_CSSPAM"].Font = Enum.Font.FredokaOne
+Converted["_CSSPAM"].Text = "CLOCK TOOL SPAM"
+Converted["_CSSPAM"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CSSPAM"].TextSize = 14
+Converted["_CSSPAM"].TextWrapped = true
+Converted["_CSSPAM"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_CSSPAM"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_CSSPAM"].BorderSizePixel = 0
+Converted["_CSSPAM"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_CSSPAM"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_CSSPAM"].Name = "CSSPAM"
+Converted["_CSSPAM"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner34"].Parent = Converted["_CSSPAM"]
+
+Converted["_UIStroke33"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke33"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke33"].Parent = Converted["_CSSPAM"]
+
+Converted["_SPEED1"].Font = Enum.Font.FredokaOne
+Converted["_SPEED1"].Text = "FASTSPEED"
+Converted["_SPEED1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SPEED1"].TextSize = 14
+Converted["_SPEED1"].TextWrapped = true
+Converted["_SPEED1"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_SPEED1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SPEED1"].BorderSizePixel = 0
+Converted["_SPEED1"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_SPEED1"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_SPEED1"].Name = "SPEED1"
+Converted["_SPEED1"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner35"].Parent = Converted["_SPEED1"]
+
+Converted["_UIStroke34"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke34"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke34"].Parent = Converted["_SPEED1"]
+
+Converted["_SPEED2"].Font = Enum.Font.FredokaOne
+Converted["_SPEED2"].Text = "NORMALSPEED"
+Converted["_SPEED2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SPEED2"].TextSize = 14
+Converted["_SPEED2"].TextWrapped = true
+Converted["_SPEED2"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_SPEED2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SPEED2"].BorderSizePixel = 0
+Converted["_SPEED2"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_SPEED2"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_SPEED2"].Name = "SPEED2"
+Converted["_SPEED2"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner36"].Parent = Converted["_SPEED2"]
+
+Converted["_UIStroke35"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke35"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke35"].Parent = Converted["_SPEED2"]
+
+Converted["_JUMP1"].Font = Enum.Font.FredokaOne
+Converted["_JUMP1"].Text = "HIGHJUMP"
+Converted["_JUMP1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_JUMP1"].TextSize = 14
+Converted["_JUMP1"].TextWrapped = true
+Converted["_JUMP1"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_JUMP1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_JUMP1"].BorderSizePixel = 0
+Converted["_JUMP1"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_JUMP1"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_JUMP1"].Name = "JUMP1"
+Converted["_JUMP1"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner37"].Parent = Converted["_JUMP1"]
+
+Converted["_UIStroke36"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke36"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke36"].Parent = Converted["_JUMP1"]
+
+Converted["_JUMP2"].Font = Enum.Font.FredokaOne
+Converted["_JUMP2"].Text = "NORMALJUMP"
+Converted["_JUMP2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_JUMP2"].TextSize = 14
+Converted["_JUMP2"].TextWrapped = true
+Converted["_JUMP2"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_JUMP2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_JUMP2"].BorderSizePixel = 0
+Converted["_JUMP2"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_JUMP2"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_JUMP2"].Name = "JUMP2"
+Converted["_JUMP2"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner38"].Parent = Converted["_JUMP2"]
+
+Converted["_UIStroke37"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke37"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke37"].Parent = Converted["_JUMP2"]
+
+Converted["_flash"].Font = Enum.Font.FredokaOne
+Converted["_flash"].Text = "GLITCH SKY"
+Converted["_flash"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_flash"].TextSize = 14
+Converted["_flash"].TextWrapped = true
+Converted["_flash"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_flash"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_flash"].BorderSizePixel = 0
+Converted["_flash"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_flash"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_flash"].Name = "flash"
+Converted["_flash"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner39"].Parent = Converted["_flash"]
+
+Converted["_UIStroke38"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke38"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke38"].Parent = Converted["_flash"]
+
+Converted["_unflash"].Font = Enum.Font.FredokaOne
+Converted["_unflash"].Text = "UNGLITCH SKY"
+Converted["_unflash"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_unflash"].TextSize = 14
+Converted["_unflash"].TextWrapped = true
+Converted["_unflash"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_unflash"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_unflash"].BorderSizePixel = 0
+Converted["_unflash"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_unflash"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_unflash"].Name = "unflash"
+Converted["_unflash"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner40"].Parent = Converted["_unflash"]
+
+Converted["_UIStroke39"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke39"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke39"].Parent = Converted["_unflash"]
+
+Converted["_FDAY"].Font = Enum.Font.FredokaOne
+Converted["_FDAY"].Text = "FOREVERDAY"
+Converted["_FDAY"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FDAY"].TextSize = 14
+Converted["_FDAY"].TextWrapped = true
+Converted["_FDAY"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_FDAY"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FDAY"].BorderSizePixel = 0
+Converted["_FDAY"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_FDAY"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_FDAY"].Name = "FDAY"
+Converted["_FDAY"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner41"].Parent = Converted["_FDAY"]
+
+Converted["_UIStroke40"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke40"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke40"].Parent = Converted["_FDAY"]
+
+Converted["_fnihgt"].Font = Enum.Font.FredokaOne
+Converted["_fnihgt"].Text = "FOREVERNIGHT"
+Converted["_fnihgt"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_fnihgt"].TextSize = 14
+Converted["_fnihgt"].TextWrapped = true
+Converted["_fnihgt"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_fnihgt"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_fnihgt"].BorderSizePixel = 0
+Converted["_fnihgt"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_fnihgt"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_fnihgt"].Name = "fnihgt"
+Converted["_fnihgt"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner42"].Parent = Converted["_fnihgt"]
+
+Converted["_UIStroke41"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke41"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke41"].Parent = Converted["_fnihgt"]
+
+Converted["_digmuf"].Font = Enum.Font.FredokaOne
+Converted["_digmuf"].Text = "DIG MUFFY"
+Converted["_digmuf"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_digmuf"].TextSize = 14
+Converted["_digmuf"].TextWrapped = true
+Converted["_digmuf"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_digmuf"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_digmuf"].BorderSizePixel = 0
+Converted["_digmuf"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_digmuf"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_digmuf"].Name = "digmuf"
+Converted["_digmuf"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner43"].Parent = Converted["_digmuf"]
+
+Converted["_UIStroke42"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke42"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke42"].Parent = Converted["_digmuf"]
+
+Converted["_DIGSOCKY"].Font = Enum.Font.FredokaOne
+Converted["_DIGSOCKY"].Text = "DIG SOCKY"
+Converted["_DIGSOCKY"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_DIGSOCKY"].TextSize = 14
+Converted["_DIGSOCKY"].TextWrapped = true
+Converted["_DIGSOCKY"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_DIGSOCKY"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_DIGSOCKY"].BorderSizePixel = 0
+Converted["_DIGSOCKY"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_DIGSOCKY"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_DIGSOCKY"].Name = "DIGSOCKY"
+Converted["_DIGSOCKY"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner44"].Parent = Converted["_DIGSOCKY"]
+
+Converted["_UIStroke43"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke43"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke43"].Parent = Converted["_DIGSOCKY"]
+
+Converted["_OLD ANIMATIONS"].Font = Enum.Font.FredokaOne
+Converted["_OLD ANIMATIONS"].Text = "OLD ANIMATIONS"
+Converted["_OLD ANIMATIONS"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_OLD ANIMATIONS"].TextSize = 14
+Converted["_OLD ANIMATIONS"].TextWrapped = true
+Converted["_OLD ANIMATIONS"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_OLD ANIMATIONS"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_OLD ANIMATIONS"].BorderSizePixel = 0
+Converted["_OLD ANIMATIONS"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_OLD ANIMATIONS"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_OLD ANIMATIONS"].Name = "OLD ANIMATIONS"
+Converted["_OLD ANIMATIONS"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner45"].Parent = Converted["_OLD ANIMATIONS"]
+
+Converted["_UIStroke44"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke44"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke44"].Parent = Converted["_OLD ANIMATIONS"]
+
+Converted["_NORMAL ANIMS"].Font = Enum.Font.FredokaOne
+Converted["_NORMAL ANIMS"].Text = "NORMAL ANIMATIONS"
+Converted["_NORMAL ANIMS"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_NORMAL ANIMS"].TextSize = 14
+Converted["_NORMAL ANIMS"].TextWrapped = true
+Converted["_NORMAL ANIMS"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_NORMAL ANIMS"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_NORMAL ANIMS"].BorderSizePixel = 0
+Converted["_NORMAL ANIMS"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_NORMAL ANIMS"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_NORMAL ANIMS"].Name = "NORMAL ANIMS"
+Converted["_NORMAL ANIMS"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner46"].Parent = Converted["_NORMAL ANIMS"]
+
+Converted["_UIStroke45"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke45"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke45"].Parent = Converted["_NORMAL ANIMS"]
+
+Converted["_noclip"].Font = Enum.Font.FredokaOne
+Converted["_noclip"].Text = "NOCLIP"
+Converted["_noclip"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_noclip"].TextSize = 14
+Converted["_noclip"].TextWrapped = true
+Converted["_noclip"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_noclip"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_noclip"].BorderSizePixel = 0
+Converted["_noclip"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_noclip"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_noclip"].Name = "noclip"
+Converted["_noclip"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner47"].Parent = Converted["_noclip"]
+
+Converted["_UIStroke46"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke46"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke46"].Parent = Converted["_noclip"]
+
+Converted["_r15"].Font = Enum.Font.FredokaOne
+Converted["_r15"].Text = "R15"
+Converted["_r15"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_r15"].TextSize = 14
+Converted["_r15"].TextWrapped = true
+Converted["_r15"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_r15"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_r15"].BorderSizePixel = 0
+Converted["_r15"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_r15"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_r15"].Name = "r15"
+Converted["_r15"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner48"].Parent = Converted["_r15"]
+
+Converted["_UIStroke47"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke47"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke47"].Parent = Converted["_r15"]
+
+Converted["_R6"].Font = Enum.Font.FredokaOne
+Converted["_R6"].Text = "R6"
+Converted["_R6"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_R6"].TextSize = 14
+Converted["_R6"].TextWrapped = true
+Converted["_R6"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_R6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_R6"].BorderSizePixel = 0
+Converted["_R6"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_R6"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_R6"].Name = "R6"
+Converted["_R6"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner49"].Parent = Converted["_R6"]
+
+Converted["_UIStroke48"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke48"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke48"].Parent = Converted["_R6"]
+
+Converted["_voidsocky"].Font = Enum.Font.FredokaOne
+Converted["_voidsocky"].Text = "VOID SOCKY"
+Converted["_voidsocky"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_voidsocky"].TextSize = 14
+Converted["_voidsocky"].TextWrapped = true
+Converted["_voidsocky"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_voidsocky"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_voidsocky"].BorderSizePixel = 0
+Converted["_voidsocky"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_voidsocky"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_voidsocky"].Name = "voidsocky"
+Converted["_voidsocky"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner50"].Parent = Converted["_voidsocky"]
+
+Converted["_UIStroke49"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke49"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke49"].Parent = Converted["_voidsocky"]
+
+Converted["_void myf"].Font = Enum.Font.FredokaOne
+Converted["_void myf"].Text = "VOID MUFFY"
+Converted["_void myf"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_void myf"].TextSize = 14
+Converted["_void myf"].TextWrapped = true
+Converted["_void myf"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_void myf"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_void myf"].BorderSizePixel = 0
+Converted["_void myf"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_void myf"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_void myf"].Name = "void myf"
+Converted["_void myf"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner51"].Parent = Converted["_void myf"]
+
+Converted["_UIStroke50"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke50"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke50"].Parent = Converted["_void myf"]
+
+Converted["_BRAEKACH"].Font = Enum.Font.FredokaOne
+Converted["_BRAEKACH"].Text = "BREAK CHAT"
+Converted["_BRAEKACH"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_BRAEKACH"].TextSize = 14
+Converted["_BRAEKACH"].TextWrapped = true
+Converted["_BRAEKACH"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_BRAEKACH"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_BRAEKACH"].BorderSizePixel = 0
+Converted["_BRAEKACH"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_BRAEKACH"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_BRAEKACH"].Name = "BRAEKACH"
+Converted["_BRAEKACH"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner52"].Parent = Converted["_BRAEKACH"]
+
+Converted["_UIStroke51"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke51"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke51"].Parent = Converted["_BRAEKACH"]
+
+Converted["_freeze"].Font = Enum.Font.FredokaOne
+Converted["_freeze"].Text = "FREEZE"
+Converted["_freeze"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_freeze"].TextSize = 14
+Converted["_freeze"].TextWrapped = true
+Converted["_freeze"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_freeze"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_freeze"].BorderSizePixel = 0
+Converted["_freeze"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_freeze"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_freeze"].Name = "freeze"
+Converted["_freeze"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner53"].Parent = Converted["_freeze"]
+
+Converted["_UIStroke52"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke52"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke52"].Parent = Converted["_freeze"]
+
+Converted["_UNFREEZE"].Font = Enum.Font.FredokaOne
+Converted["_UNFREEZE"].Text = "UNFREEZE"
+Converted["_UNFREEZE"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_UNFREEZE"].TextSize = 14
+Converted["_UNFREEZE"].TextWrapped = true
+Converted["_UNFREEZE"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_UNFREEZE"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_UNFREEZE"].BorderSizePixel = 0
+Converted["_UNFREEZE"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_UNFREEZE"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_UNFREEZE"].Name = "UNFREEZE"
+Converted["_UNFREEZE"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner54"].Parent = Converted["_UNFREEZE"]
+
+Converted["_UIStroke53"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke53"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke53"].Parent = Converted["_UNFREEZE"]
+
+Converted["_veroipsm"].Font = Enum.Font.FredokaOne
+Converted["_veroipsm"].Text = "VERSION"
+Converted["_veroipsm"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_veroipsm"].TextSize = 14
+Converted["_veroipsm"].TextWrapped = true
+Converted["_veroipsm"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_veroipsm"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_veroipsm"].BorderSizePixel = 0
+Converted["_veroipsm"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_veroipsm"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_veroipsm"].Name = "veroipsm"
+Converted["_veroipsm"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner55"].Parent = Converted["_veroipsm"]
+
+Converted["_UIStroke54"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke54"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke54"].Parent = Converted["_veroipsm"]
+
+Converted["_owners"].Font = Enum.Font.FredokaOne
+Converted["_owners"].Text = "OWNERS"
+Converted["_owners"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_owners"].TextSize = 14
+Converted["_owners"].TextWrapped = true
+Converted["_owners"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_owners"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_owners"].BorderSizePixel = 0
+Converted["_owners"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_owners"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_owners"].Name = "owners"
+Converted["_owners"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner56"].Parent = Converted["_owners"]
+
+Converted["_UIStroke55"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke55"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke55"].Parent = Converted["_owners"]
+
+Converted["_grabmuf"].Font = Enum.Font.FredokaOne
+Converted["_grabmuf"].Text = "GRAB MUFFY (BUGGY)"
+Converted["_grabmuf"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_grabmuf"].TextSize = 14
+Converted["_grabmuf"].TextWrapped = true
+Converted["_grabmuf"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_grabmuf"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_grabmuf"].BorderSizePixel = 0
+Converted["_grabmuf"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_grabmuf"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_grabmuf"].Name = "grabmuf"
+Converted["_grabmuf"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner57"].Parent = Converted["_grabmuf"]
+
+Converted["_UIStroke56"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke56"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke56"].Parent = Converted["_grabmuf"]
+
+Converted["_grabsock"].Font = Enum.Font.FredokaOne
+Converted["_grabsock"].Text = "GRAB SOCKY (BUGGY)"
+Converted["_grabsock"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_grabsock"].TextSize = 14
+Converted["_grabsock"].TextWrapped = true
+Converted["_grabsock"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_grabsock"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_grabsock"].BorderSizePixel = 0
+Converted["_grabsock"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_grabsock"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_grabsock"].Name = "grabsock"
+Converted["_grabsock"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner58"].Parent = Converted["_grabsock"]
+
+Converted["_UIStroke57"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke57"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke57"].Parent = Converted["_grabsock"]
+
+Converted["_dingsound"].Font = Enum.Font.FredokaOne
+Converted["_dingsound"].Text = "DING SOUND"
+Converted["_dingsound"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_dingsound"].TextSize = 14
+Converted["_dingsound"].TextWrapped = true
+Converted["_dingsound"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_dingsound"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_dingsound"].BorderSizePixel = 0
+Converted["_dingsound"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_dingsound"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_dingsound"].Name = "dingsound"
+Converted["_dingsound"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner59"].Parent = Converted["_dingsound"]
+
+Converted["_UIStroke58"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke58"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke58"].Parent = Converted["_dingsound"]
+
+Converted["_COIL SOUND"].Font = Enum.Font.FredokaOne
+Converted["_COIL SOUND"].Text = "COIL SOUND"
+Converted["_COIL SOUND"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_COIL SOUND"].TextSize = 14
+Converted["_COIL SOUND"].TextWrapped = true
+Converted["_COIL SOUND"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_COIL SOUND"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_COIL SOUND"].BorderSizePixel = 0
+Converted["_COIL SOUND"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_COIL SOUND"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_COIL SOUND"].Name = "COIL SOUND"
+Converted["_COIL SOUND"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner60"].Parent = Converted["_COIL SOUND"]
+
+Converted["_UIStroke59"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke59"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke59"].Parent = Converted["_COIL SOUND"]
+
+Converted["_woosh"].Font = Enum.Font.FredokaOne
+Converted["_woosh"].Text = "WHOOSH SOUND"
+Converted["_woosh"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_woosh"].TextSize = 14
+Converted["_woosh"].TextWrapped = true
+Converted["_woosh"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_woosh"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_woosh"].BorderSizePixel = 0
+Converted["_woosh"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_woosh"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_woosh"].Name = "woosh"
+Converted["_woosh"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner61"].Parent = Converted["_woosh"]
+
+Converted["_UIStroke60"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke60"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke60"].Parent = Converted["_woosh"]
+
+Converted["_woosh1"].Font = Enum.Font.FredokaOne
+Converted["_woosh1"].Text = "BRING ANIMALS "
+Converted["_woosh1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_woosh1"].TextSize = 14
+Converted["_woosh1"].TextWrapped = true
+Converted["_woosh1"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_woosh1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_woosh1"].BorderSizePixel = 0
+Converted["_woosh1"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_woosh1"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_woosh1"].Name = "woosh"
+Converted["_woosh1"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner62"].Parent = Converted["_woosh1"]
+
+Converted["_UIStroke61"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke61"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke61"].Parent = Converted["_woosh1"]
+
+Converted["_ungmuf"].Font = Enum.Font.FredokaOne
+Converted["_ungmuf"].Text = "UNGRAB MUFFY"
+Converted["_ungmuf"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ungmuf"].TextSize = 14
+Converted["_ungmuf"].TextWrapped = true
+Converted["_ungmuf"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_ungmuf"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ungmuf"].BorderSizePixel = 0
+Converted["_ungmuf"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_ungmuf"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_ungmuf"].Name = "ungmuf"
+Converted["_ungmuf"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner63"].Parent = Converted["_ungmuf"]
+
+Converted["_UIStroke62"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke62"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke62"].Parent = Converted["_ungmuf"]
+
+Converted["_unfsock"].Font = Enum.Font.FredokaOne
+Converted["_unfsock"].Text = "UNGRAB SOCKY"
+Converted["_unfsock"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_unfsock"].TextSize = 14
+Converted["_unfsock"].TextWrapped = true
+Converted["_unfsock"].BackgroundColor3 = Color3.fromRGB(66.00000366568565, 66.00000366568565, 66.00000366568565)
+Converted["_unfsock"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_unfsock"].BorderSizePixel = 0
+Converted["_unfsock"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_unfsock"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_unfsock"].Name = "unfsock"
+Converted["_unfsock"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner64"].Parent = Converted["_unfsock"]
+
+Converted["_UIStroke63"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke63"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke63"].Parent = Converted["_unfsock"]
+
+Converted["_REJOIN"].Font = Enum.Font.FredokaOne
+Converted["_REJOIN"].Text = "REJOIN"
+Converted["_REJOIN"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_REJOIN"].TextScaled = true
+Converted["_REJOIN"].TextSize = 14
+Converted["_REJOIN"].TextWrapped = true
+Converted["_REJOIN"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_REJOIN"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_REJOIN"].BorderSizePixel = 0
+Converted["_REJOIN"].Position = UDim2.new(0.663594484, 0, 0.407862395, 0)
+Converted["_REJOIN"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_REJOIN"].Name = "REJOIN"
+Converted["_REJOIN"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner65"].Parent = Converted["_REJOIN"]
+
+Converted["_UIStroke64"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke64"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke64"].Parent = Converted["_REJOIN"]
+
+Converted["_RESET"].Font = Enum.Font.FredokaOne
+Converted["_RESET"].Text = "RESET"
+Converted["_RESET"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_RESET"].TextScaled = true
+Converted["_RESET"].TextSize = 14
+Converted["_RESET"].TextWrapped = true
+Converted["_RESET"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_RESET"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_RESET"].BorderSizePixel = 0
+Converted["_RESET"].ClipsDescendants = true
+Converted["_RESET"].Position = UDim2.new(-0.142857149, 0, 0.665847659, 0)
+Converted["_RESET"].Size = UDim2.new(0, 93, 0, 92)
+Converted["_RESET"].Name = "RESET"
+Converted["_RESET"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner66"].Parent = Converted["_RESET"]
+
+Converted["_UIStroke65"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke65"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke65"].Parent = Converted["_RESET"]
+
+Converted["_dc"].Font = Enum.Font.FredokaOne
+Converted["_dc"].Text = "DISCORD SERVER"
+Converted["_dc"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_dc"].TextScaled = true
+Converted["_dc"].TextSize = 14
+Converted["_dc"].TextWrapped = true
+Converted["_dc"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_dc"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_dc"].BorderSizePixel = 0
+Converted["_dc"].Position = UDim2.new(0.757617712, 0, 0.0548590496, 0)
+Converted["_dc"].Size = UDim2.new(0, 108, 0, 52)
+Converted["_dc"].Name = "dc"
+Converted["_dc"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_UICorner67"].Parent = Converted["_dc"]
+
+Converted["_UIStroke66"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke66"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke66"].Parent = Converted["_dc"]
+
+Converted["_UIStroke67"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke67"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke67"].Thickness = 3
+Converted["_UIStroke67"].Parent = Converted["_Frame"]
+
+Converted["_Close"].Font = Enum.Font.Bangers
+Converted["_Close"].Text = "X"
+Converted["_Close"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Close"].TextScaled = true
+Converted["_Close"].TextSize = 14
+Converted["_Close"].TextWrapped = true
+Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_Close"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Close"].BorderSizePixel = 0
+Converted["_Close"].Position = UDim2.new(0.0227577202, 0, 0.0364025496, 0)
+Converted["_Close"].Size = UDim2.new(0, 53, 0, 30)
+Converted["_Close"].Name = "Close"
+Converted["_Close"].Parent = Converted["_Frame"]
+
+Converted["_UICorner68"].Parent = Converted["_Close"]
+
+Converted["_UIStroke68"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke68"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke68"].Parent = Converted["_Close"]
+
+Converted["_MINIMUZE"].Font = Enum.Font.Bangers
+Converted["_MINIMUZE"].Text = "-"
+Converted["_MINIMUZE"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_MINIMUZE"].TextScaled = true
+Converted["_MINIMUZE"].TextSize = 14
+Converted["_MINIMUZE"].TextWrapped = true
+Converted["_MINIMUZE"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_MINIMUZE"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_MINIMUZE"].BorderSizePixel = 0
+Converted["_MINIMUZE"].Position = UDim2.new(0.104702167, 0, 0.0364025496, 0)
+Converted["_MINIMUZE"].Size = UDim2.new(0, 53, 0, 30)
+Converted["_MINIMUZE"].Name = "MINIMUZE"
+Converted["_MINIMUZE"].Parent = Converted["_Frame"]
+
+Converted["_UICorner69"].Parent = Converted["_MINIMUZE"]
+
+Converted["_UIStroke69"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke69"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke69"].Parent = Converted["_MINIMUZE"]
+
+Converted["_version"].Enabled = false
+Converted["_version"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_version"].Name = "version"
+Converted["_version"].Parent = Converted["_Gui"]
+
+Converted["_TextLabel"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel"].Text = "Fedora version is currently at : FEDORA GUI BETA "
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(89.00000229477882, 89.00000229477882, 89.00000229477882)
+Converted["_TextLabel"].BackgroundTransparency = 0.4000000059604645
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.211059183, 0, 0.665064096, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 356, 0, 169)
+Converted["_TextLabel"].Parent = Converted["_version"]
+
+Converted["_UITextSizeConstraint"].Parent = Converted["_TextLabel"]
+
+Converted["_ImageLabel2"].Image = "rbxassetid://18109675767"
+Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel2"].BorderSizePixel = 0
+Converted["_ImageLabel2"].Position = UDim2.new(0.0224719103, 0, 0.390532553, 0)
+Converted["_ImageLabel2"].Size = UDim2.new(0, 24, 0, 19)
+Converted["_ImageLabel2"].Parent = Converted["_TextLabel"]
+
+Converted["_UICorner70"].Parent = Converted["_ImageLabel2"]
+
+Converted["_TextLabel1"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel1"].Text = "VERSION"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].TextScaled = true
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].TextWrapped = true
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.272983849, 0, -0.157447949, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0, 161, 0, 26)
+Converted["_TextLabel1"].Parent = Converted["_TextLabel"]
+
+Converted["_UICorner71"].Parent = Converted["_TextLabel1"]
+
+Converted["_ImageButton"].Image = "rbxassetid://1249929622"
+Converted["_ImageButton"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton"].BackgroundTransparency = 1
+Converted["_ImageButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton"].BorderSizePixel = 0
+Converted["_ImageButton"].Position = UDim2.new(0.910112381, 0, 0, 0)
+Converted["_ImageButton"].Size = UDim2.new(0, 32, 0, 30)
+Converted["_ImageButton"].Parent = Converted["_TextLabel"]
+
+Converted["_UICorner72"].Parent = Converted["_ImageButton"]
+
+Converted["_UIStroke70"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke70"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke70"].Thickness = 2
+Converted["_UIStroke70"].Parent = Converted["_TextLabel"]
+
+Converted["_UICorner73"].Parent = Converted["_TextLabel"]
+
+Converted["_ImageLabel3"].Image = "rbxassetid://18109675767"
+Converted["_ImageLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel3"].BorderSizePixel = 0
+Converted["_ImageLabel3"].Position = UDim2.new(0.0062305294, 0, 0.926282048, 0)
+Converted["_ImageLabel3"].Size = UDim2.new(0, 38, 0, 36)
+Converted["_ImageLabel3"].Parent = Converted["_Gui"]
+
+Converted["_UICorner74"].Parent = Converted["_ImageLabel3"]
+
+Converted["_UIStroke71"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke71"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke71"].Parent = Converted["_ImageLabel3"]
+
+Converted["_owner"].Enabled = false
+Converted["_owner"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_owner"].Name = "owner"
+Converted["_owner"].Parent = Converted["_Gui"]
+
+Converted["_TextLabel2"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel2"].Text = "Current owner is: Madnaf (C0OL1kID2) and CO-Owner is ryze (14anz_COOL)"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].TextScaled = true
+Converted["_TextLabel2"].TextSize = 14
+Converted["_TextLabel2"].TextWrapped = true
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(89.00000229477882, 89.00000229477882, 89.00000229477882)
+Converted["_TextLabel2"].BackgroundTransparency = 0.4000000059604645
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(0.211059183, 0, 0.665064096, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0, 356, 0, 169)
+Converted["_TextLabel2"].Parent = Converted["_owner"]
+
+Converted["_UITextSizeConstraint1"].Parent = Converted["_TextLabel2"]
+
+Converted["_ImageLabel4"].Image = "rbxassetid://18109675767"
+Converted["_ImageLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel4"].BorderSizePixel = 0
+Converted["_ImageLabel4"].Position = UDim2.new(0.0308988765, 0, 0.491124272, 0)
+Converted["_ImageLabel4"].Size = UDim2.new(0, 24, 0, 19)
+Converted["_ImageLabel4"].Parent = Converted["_TextLabel2"]
+
+Converted["_UICorner75"].Parent = Converted["_ImageLabel4"]
+
+Converted["_TextLabel3"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel3"].Text = "VERSION"
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].TextScaled = true
+Converted["_TextLabel3"].TextSize = 14
+Converted["_TextLabel3"].TextWrapped = true
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Position = UDim2.new(0.272983849, 0, -0.157447949, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0, 161, 0, 26)
+Converted["_TextLabel3"].Parent = Converted["_TextLabel2"]
+
+Converted["_UICorner76"].Parent = Converted["_TextLabel3"]
+
+Converted["_ImageButton1"].Image = "rbxassetid://1249929622"
+Converted["_ImageButton1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton1"].BackgroundTransparency = 1
+Converted["_ImageButton1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton1"].BorderSizePixel = 0
+Converted["_ImageButton1"].Position = UDim2.new(0.910112381, 0, 0, 0)
+Converted["_ImageButton1"].Size = UDim2.new(0, 32, 0, 30)
+Converted["_ImageButton1"].Parent = Converted["_TextLabel2"]
+
+Converted["_UICorner77"].Parent = Converted["_ImageButton1"]
+
+Converted["_UIStroke72"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke72"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke72"].Thickness = 2
+Converted["_UIStroke72"].Parent = Converted["_TextLabel2"]
+
+Converted["_UICorner78"].Parent = Converted["_TextLabel2"]
+
+Converted["_open"].Enabled = false
+Converted["_open"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_open"].Name = "open"
+Converted["_open"].Parent = Converted["_Gui"]
+
+Converted["_TextButton"].Font = Enum.Font.Bangers
+Converted["_TextButton"].Text = "OPEN"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Position = UDim2.new(0.0151351355, 0, 0.476031214, 0)
+Converted["_TextButton"].Size = UDim2.new(0, 62, 0, 28)
+Converted["_TextButton"].Parent = Converted["_open"]
+
+Converted["_UIStroke73"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke73"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke73"].Parent = Converted["_TextButton"]
+
+Converted["_UICorner79"].Parent = Converted["_TextButton"]
+
+Converted["_discord"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_discord"].Name = "discord"
+Converted["_discord"].Parent = Converted["_Gui"]
+
+Converted["_TextLabel4"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel4"].Text = "https://discord.gg/fnJkpSev"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].TextScaled = true
+Converted["_TextLabel4"].TextSize = 14
+Converted["_TextLabel4"].TextWrapped = true
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(89.00000229477882, 89.00000229477882, 89.00000229477882)
+Converted["_TextLabel4"].BackgroundTransparency = 0.4000000059604645
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Position = UDim2.new(-0.000832717458, 0, 0.00207560346, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0, 348, 0, 76)
+Converted["_TextLabel4"].Parent = Converted["_discord"]
+
+Converted["_UITextSizeConstraint2"].Parent = Converted["_TextLabel4"]
+
+Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel5"].Text = "DISCORD"
+Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].TextScaled = true
+Converted["_TextLabel5"].TextSize = 14
+Converted["_TextLabel5"].TextWrapped = true
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
+Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].BorderSizePixel = 0
+Converted["_TextLabel5"].Position = UDim2.new(0.235627532, 0, 0.0136044146, 0)
+Converted["_TextLabel5"].Size = UDim2.new(0, 161, 0, 26)
+Converted["_TextLabel5"].Parent = Converted["_TextLabel4"]
+
+Converted["_UICorner80"].Parent = Converted["_TextLabel5"]
+
+Converted["_ImageButton2"].Image = "rbxassetid://1249929622"
+Converted["_ImageButton2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageButton2"].BackgroundTransparency = 1
+Converted["_ImageButton2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageButton2"].BorderSizePixel = 0
+Converted["_ImageButton2"].Position = UDim2.new(0.910112381, 0, 0, 0)
+Converted["_ImageButton2"].Size = UDim2.new(0, 32, 0, 30)
+Converted["_ImageButton2"].Parent = Converted["_TextLabel4"]
+
+Converted["_UICorner81"].Parent = Converted["_ImageButton2"]
+
+Converted["_UIStroke74"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke74"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke74"].Thickness = 2
+Converted["_UIStroke74"].Parent = Converted["_TextLabel4"]
+
+Converted["_UICorner82"].Parent = Converted["_TextLabel4"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function VWDT_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.BringMuffy.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_BringMuffy"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		print("Clicked")
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.muffy.Torso)
+		workspace.muffy.Torso.CFrame = ogcframe
+		hrp.CFrame = ogcframe
+	
+	end)
+	
+	
+end
+local function ULNB_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.Bringsocky.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Bringsocky"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		print("Clicked")
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.socky.Torso)
+		workspace.socky.Torso.CFrame = ogcframe
+		hrp.CFrame = ogcframe
+	
+	end)
+	
+	
+end
+local function VLCJPNT_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.bringdoge.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_bringdoge"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		print("Clicked")
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.Doge.Torso)
+		workspace.doge.Torso.CFrame = ogcframe
+		hrp.CFrame = ogcframe
+	
+	end)
+	
+	
+end
+local function QBCZB_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.bringgirl.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_bringgirl"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		print("Clicked")
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.girl.Torso)
+		workspace.girl.Torso.CFrame = ogcframe
+		hrp.CFrame = ogcframe
+	
+	end)
+	
+	
+end
+local function YZCY_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.Fly.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Fly"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local Fly = false
+	
+	button.MouseButton1Click:Connect(function()
+		if Fly == true then
+			Fly = false
+			button.Text = "FLY"
+			return
+		end
+	
+		Fly = true
+		button.Text = "UNFLY"
+	
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		local localplayer = game.Players.LocalPlayer
+		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+	
+		local torso = game.Players.LocalPlayer.Character.HumanoidRootPart
+		local speed = 0
+		local keys = {a = false, d = false, w = false, s = false} 
+		local e1
+		local e2
+	
+		local function start()
+			local pos = Instance.new("BodyPosition", torso)
+			local gyro = Instance.new("BodyGyro", torso)
+	
+			pos.Name = "EPIXPOS"
+			pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+			pos.position = torso.Position
+	
+			gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+			gyro.cframe = torso.CFrame
+	
+			repeat
+				wait()
+				localplayer.Character.Humanoid.PlatformStand = true
+				local new = gyro.cframe - gyro.cframe.p + pos.position
+	
+				if not keys.w and not keys.s and not keys.a and not keys.d then
+					speed = 1
+				end 
+	
+				if keys.w then 
+					new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+					speed = speed + 0.01
+				end
+	
+				if keys.s then 
+					new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+					speed = speed + 0.01
+				end
+	
+				if keys.d then 
+					new = new * CFrame.new(speed, 0, 0)
+					speed = speed + 0.01
+				end
+	
+				if keys.a then 
+					new = new * CFrame.new(-speed, 0, 0)
+					speed = speed + 0.01
+				end
+	
+				if speed > 5 then
+					speed = 5
+				end
+	
+				pos.position = new.p
+	
+				if keys.w then
+					gyro.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad(speed * 15), 0, 0)
+				elseif keys.s then
+					gyro.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(math.rad(speed * 15), 0, 0)
+				else
+					gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+				end
+	
+			until not Fly
+	
+			if gyro then gyro:Destroy() end
+			if pos then pos:Destroy() end
+	
+			localplayer.Character.Humanoid.PlatformStand = false
+			speed = 0
+		end
+	
+		e1 = mouse.KeyDown:connect(function(key)
+			if not torso or not torso.Parent then e1:disconnect() e2:disconnect() return end
+			if key == "w" then
+				keys.w = true
+			elseif key == "s" then
+				keys.s = true
+			elseif key == "a" then
+				keys.a = true
+			elseif key == "d" then
+				keys.d = true
+			end
+		end)
+	
+		e2 = mouse.KeyUp:connect(function(key)
+			if key == "w" then
+				keys.w = false
+			elseif key == "s" then
+				keys.s = false
+			elseif key == "a" then
+				keys.a = false
+			elseif key == "d" then
+				keys.d = false
+			end
+		end)
+	
+		start()
+	end)
+	
+end
+local function GWKL_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.Explodemuffy.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Explodemuffy"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.muffy.Torso)
+		workspace.muffy.Humanoid.Health = 0
+		hrp.CFrame = ogcframe
+	end)
+end
+local function WQKZXT_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.explode socky.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_explode socky"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.socky.Torso)
+		workspace.socky.Humanoid.Health = 0
+		hrp.CFrame = ogcframe
+	end)
+end
+local function DWUFQPQ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.GOTO MUFFY.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_GOTO MUFFY"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.muffy.Torso.CFrame * CFrame.new(0,-1,0) 
+	end)
+end
+local function OIUD_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.GOTO SOCKY.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_GOTO SOCKY"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.socky.Torso.CFrame * CFrame.new(0,-1,0) 
+	end)
+end
+local function JCITWJK_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.goto girl.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_goto girl"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.girl.Torso.CFrame * CFrame.new(0,-1,0) 
+	end)
+end
+local function IHKVBU_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.goto dog.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_goto dog"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Doge.Torso.CFrame * CFrame.new(0,-1,0) 
+	end)
+end
+local function HGYOKE_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.GOTO CAT.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_GOTO CAT"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Cat.Torso.CFrame * CFrame.new(0,-1,0) 
+	end)
+end
+local function YQWMGL_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.brignalldogs.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_brignalldogs"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local c = game.Players.LocalPlayer.Character
+		local hrp = c.HumanoidRootPart
+		for i,v in pairs(workspace:GetChildren()) do
+			if v.Name == 'Doge' then
+				if v:FindFirstChild('Torso') then
+					local t = v:FindFirstChild('Torso')
+					local og = hrp.CFrame 
+					for i=1,15 do
+						hrp.CFrame = t.CFrame
+						task.wait()
+					end
+					t.CFrame = og
+					hrp.CFrame = og
+				end
+			end
+		end
+	end)
+end
+local function CIBG_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.CONTROLMUFFY.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_CONTROLMUFFY"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		print("re execute if you die")
+		local plrs = game:GetService("Players")
+		local plr = plrs.LocalPlayer
+		local char = plr.Character
+		local hrp = char.HumanoidRootPart
+		local pname = plr.Name
+		local nname = "socky" -- change cat if you want
+		local ccat = Instance.new("StringValue")
+		local tname = ""
+	
+	
+		-- Settings
+	
+		local serverexp_oncontrol = false
+	
+		-- Value checks
+	
+		local check1 = false
+		local dcheck = false
+		local dcheck2 = false
+		local breakc = false
+	
+		game:GetService("RunService").Stepped:Connect(function()
+			if game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.L) then
+				for _, v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end
+				end
+			end
+		end)
+	
+		function antikill()
+			local char = plr.Character
+			local LT = char:FindFirstChild("LowerTorso")
+	
+			if LT then
+				char.RightHand:Destroy()
+			else
+				char["Right Arm"]:Destroy()
+			end
+		end
+	
+		function control_cat()
+			local char = plr.Character
+			local hrp = char.HumanoidRootPart
+	
+			function clearff()
+				if char:FindFirstChild("ForceField") then
+					char.ForceField:Destroy()
+				end
+			end
+	
+			function invisible_2()
+				local tool = plr.Backpack:FindFirstChild("InvisibilityCloak")
+				tool.Parent = plr.Character
+				tool:Activate()
+				tool.Parent = plr.Backpack
+				wait(2)
+				tool.Parent = plr.Character
+				tool.Handle:Destroy()
+				tool.Script:Destroy()
+				tool.Parent = plr.Backpack
+			end
+	
+			function OnCatDied()
+				dcheck = true
+				local h = Instance.new("Humanoid", char)
+				char.HumanoidRootPart.bp:Destroy()
+				game.Players.LocalPlayer.Character = char
+				char:BreakJoints()
+				game.Players.LocalPlayer.Character = game.Workspace[nname]
+			end
+	
+			function addforce_2()
+				local npc = plr.Character
+				local bp = Instance.new("BodyPosition", npc.HumanoidRootPart)
+				bp.Name = "bp"
+				bp.MaxForce = Vector3.new(10000, 10000, 10000)
+				bp.D = 200
+				bp.P = 20000
+			end
+	
+			function addforcemain_2()
+				addforce_2()
+				wait(0.01)
+				local char = game.Workspace[nname]
+				ccat.Value = char.Name
+				local tr = char.Torso
+				local npc = plr.Character
+				local bp = npc.HumanoidRootPart.bp
+				plr.Character = char
+				npc.Humanoid:Destroy()
+				for i, v in next, npc:GetDescendants() do
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end
+				end
+				while true do
+					bp.Position = tr.Position
+					npc.HumanoidRootPart.Velocity = tr.Velocity
+					wait(0.01)
+					if not game.Workspace:FindFirstChild(nname) then
+						OnCatDied()
+					end
+				end
+			end
+	
+			function rkey()
+				game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+					if key == "r" and dcheck == false then
+						if serverexp_oncontrol == true then
+							for i, v in pairs(game:GetService("Workspace")["                                                 "]:GetChildren()) do
+								firetouchinterest(game.Players.LocalPlayer.Character.Head, v, 0)
+								firetouchinterest(game.Players.LocalPlayer.Character.Head, v, 1)
+							end
+						else
+							game.Workspace[ccat.Value].Head:Destroy()
+						end
+					end
+				end)
+			end
+	
+			function tkey()
+				game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+					if key == "t" and dcheck == false then
+						hrp.CFrame = game.Workspace[nname].Torso.CFrame
+						hrp.Velocity = Vector3.new(0, 0, 0)
+					else
+					end
+				end)
+			end
+	
+			clearff()
+			invisible_2()
+			antikill()
+			hrp.CFrame = game.Workspace[nname].Torso.CFrame
+			rkey() tkey()
+			game.Workspace.Camera.CameraSubject = game.Workspace[nname].Humanoid
+			dcheck = false
+			addforcemain_2()
+	
+		end
+		control_cat() 
+	
+		wait(0.5)
+	
+		pcall(game.Players.LocalPlayer.Character.Head:Destroy())
+	end)
+end
+local function EYLED_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.CONTROLSOCKY.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_CONTROLSOCKY"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		print("re execute if you die")
+		local plrs = game:GetService("Players")
+		local plr = plrs.LocalPlayer
+		local char = plr.Character
+		local hrp = char.HumanoidRootPart
+		local pname = plr.Name
+		local nname = "muffy" -- change cat if you want
+		local ccat = Instance.new("StringValue")
+		local tname = ""
+	
+	
+		-- Settings
+	
+		local serverexp_oncontrol = false
+	
+		-- Value checks
+	
+		local check1 = false
+		local dcheck = false
+		local dcheck2 = false
+		local breakc = false
+	
+		game:GetService("RunService").Stepped:Connect(function()
+			if game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.L) then
+				for _, v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end
+				end
+			end
+		end)
+	
+		function antikill()
+			local char = plr.Character
+			local LT = char:FindFirstChild("LowerTorso")
+	
+			if LT then
+				char.RightHand:Destroy()
+			else
+				char["Right Arm"]:Destroy()
+			end
+		end
+	
+		function control_cat()
+			local char = plr.Character
+			local hrp = char.HumanoidRootPart
+	
+			function clearff()
+				if char:FindFirstChild("ForceField") then
+					char.ForceField:Destroy()
+				end
+			end
+	
+			function invisible_2()
+				local tool = plr.Backpack:FindFirstChild("InvisibilityCloak")
+				tool.Parent = plr.Character
+				tool:Activate()
+				tool.Parent = plr.Backpack
+				wait(2)
+				tool.Parent = plr.Character
+				tool.Handle:Destroy()
+				tool.Script:Destroy()
+				tool.Parent = plr.Backpack
+			end
+	
+			function OnCatDied()
+				dcheck = true
+				local h = Instance.new("Humanoid", char)
+				char.HumanoidRootPart.bp:Destroy()
+				game.Players.LocalPlayer.Character = char
+				char:BreakJoints()
+				game.Players.LocalPlayer.Character = game.Workspace[nname]
+			end
+	
+			function addforce_2()
+				local npc = plr.Character
+				local bp = Instance.new("BodyPosition", npc.HumanoidRootPart)
+				bp.Name = "bp"
+				bp.MaxForce = Vector3.new(10000, 10000, 10000)
+				bp.D = 200
+				bp.P = 20000
+			end
+	
+			function addforcemain_2()
+				addforce_2()
+				wait(0.01)
+				local char = game.Workspace[nname]
+				ccat.Value = char.Name
+				local tr = char.Torso
+				local npc = plr.Character
+				local bp = npc.HumanoidRootPart.bp
+				plr.Character = char
+				npc.Humanoid:Destroy()
+				for i, v in next, npc:GetDescendants() do
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end
+				end
+				while true do
+					bp.Position = tr.Position
+					npc.HumanoidRootPart.Velocity = tr.Velocity
+					wait(0.01)
+					if not game.Workspace:FindFirstChild(nname) then
+						OnCatDied()
+					end
+				end
+			end
+	
+			function rkey()
+				game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+					if key == "r" and dcheck == false then
+						if serverexp_oncontrol == true then
+							for i, v in pairs(game:GetService("Workspace")["                                                 "]:GetChildren()) do
+								firetouchinterest(game.Players.LocalPlayer.Character.Head, v, 0)
+								firetouchinterest(game.Players.LocalPlayer.Character.Head, v, 1)
+							end
+						else
+							game.Workspace[ccat.Value].Head:Destroy()
+						end
+					end
+				end)
+			end
+	
+			function tkey()
+				game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+					if key == "t" and dcheck == false then
+						hrp.CFrame = game.Workspace[nname].Torso.CFrame
+						hrp.Velocity = Vector3.new(0, 0, 0)
+					else
+					end
+				end)
+			end
+	
+			clearff()
+			invisible_2()
+			antikill()
+			hrp.CFrame = game.Workspace[nname].Torso.CFrame
+			rkey() tkey()
+			game.Workspace.Camera.CameraSubject = game.Workspace[nname].Humanoid
+			dcheck = false
+			addforcemain_2()
+	
+		end
+		control_cat() 
+	
+		wait(0.5)
+	
+		pcall(game.Players.LocalPlayer.Character.Head:Destroy())
+	end)
+end
+local function ELLDSFH_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.barksound.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_barksound"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Workspace.Doge.Head.Bark
+		local time = 0.3
+		_G.l = false
+		_G.l = true
+		spawn(function()
+			barksound:Play()
+		end)
+	end)
+end
+local function UMIUWFX_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.loopbark.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_loopbark"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Workspace.Doge.Head.Bark
+		local time = 0.3
+		_G.l = true 
+		while _G.l == true do                      
+			barksound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function TQWYE_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.LIGHTNINGSOUND.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_LIGHTNINGSOUND"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local sound = game:GetService("Lighting").fire.Model["Haunted house"].LightningSound
+		local time = 3
+		_G.l = false
+		_G.l = true
+		spawn(function()
+			sound:Play()
+		end)
+	end)
+end
+local function BKKDEE_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.looplightningsound.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_looplightningsound"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local sound = game.Lighting.fire.Model["Haunted house"].LightningSound
+		local time = 4
+		_G.l = true 
+		while _G.l == true do                      
+			sound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function AOQIZX_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.WOW SOUND.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_WOW SOUND"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Workspace.Doge.Head.Wow
+		local time = 0.3
+		_G.l = false
+		_G.l = true
+		spawn(function()
+			barksound:Play()
+		end)
+	end)
+end
+local function OQNZL_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.LOOPWOWSOUND.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_LOOPWOWSOUND"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Workspace.Doge.Head.Bark
+		local time = 0.3
+		_G.l = true 
+		while _G.l == true do                      
+			barksound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function CGVN_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.THUNDER.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_THUNDER"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Lighting.fire.Model["Haunted house"].ThunderSound
+		local time = 0.3
+		_G.l = true 
+		barksound:Play()
+	end)
+end
+local function VURDXIB_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.LOOP THUNDER.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_LOOP THUNDER"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Lighting.fire.Model["Haunted house"].ThunderSound
+		local time = 0.3
+		_G.l = true 
+		while _G.l == true do                      
+			barksound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function TBTFASI_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.stoploopthuner.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_stoploopthuner"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Lighting.fire.Model["Haunted house"].ThunderSound
+		local time = 0.3
+		_G.l = false 
+		while _G.l == true do                      
+			barksound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function XLUXE_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.STOPBARKSOUND.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_STOPBARKSOUND"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Workspace.Doge.Head.Bark
+		local time = 0.3
+		_G.l = false 
+		while _G.l == true do                      
+			barksound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function UZYC_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.STOPLOOPLIGHTNING.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_STOPLOOPLIGHTNING"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local sound = game.Lighting.fire.Model["Haunted house"].LightningSound
+		local time = 4
+		_G.l = false 
+		while _G.l == true do                      
+			sound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function ZLNDW_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.STOPBARK.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_STOPBARK"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Workspace.Doge.Head.Bark
+		local time = 0.3
+		_G.l = false 
+		while _G.l == true do                      
+			barksound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function QQAQAQ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.STOPLOOPBARTKSOUND.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_STOPLOOPBARTKSOUND"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local barksound = game.Workspace.Doge.Head.Bark
+		local time = 0.3
+		_G.l = false 
+		while _G.l == true do                      
+			barksound:Play()    
+			task.wait(time)
+		end
+	end)
+end
+local function JYECGCQ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.capespam.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_capespam"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local running = false -- Variable to keep track of whether the action is running
+	
+	button.MouseButton1Click:Connect(function()
+		local rme = workspace.Tools.Chest_Invisibility_Cloak.LidToggle
+		local lp = game.Players.LocalPlayer
+		local char = lp.Character
+	
+		function gettool()
+			if char:FindFirstChild('InvisibilityCloak') then
+				char:FindFirstChild('InvisibilityCloak').Parent = workspace
+				rme:FireServer()
+			elseif lp.Backpack:FindFirstChild('InvisibilityCloak') then
+				lp.Backpack:FindFirstChild('InvisibilityCloak').Parent = char
+				char:FindFirstChild('InvisibilityCloak').Parent = workspace
+				rme:FireServer()
+			else
+				rme:FireServer()
+			end
+		end
+	
+		if not running then
+			running = true
+			button.Text = "STOP"
+			_G.On = true
+			while _G.On == true do
+				task.wait()
+				gettool()
+				if not running then
+					break
+				end
+			end
+		else
+			running = false
+			button.Text = "SPAM CAPE TOOL"
+			_G.On = false
+		end
+	end)
+	
+end
+local function HDIY_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.GSPOAM.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_GSPOAM"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local running = false -- Variable to keep track of whether the action is running
+	
+	button.MouseButton1Click:Connect(function()
+		local rme = workspace.Tools.Chest_Gravity_Coil.LidToggle
+		local lp = game.Players.LocalPlayer
+		local char = lp.Character
+	
+		function gettool()
+			if char:FindFirstChild('GravityCoil') then
+				char:FindFirstChild('GravityCoil').Parent = workspace
+				rme:FireServer()
+			elseif lp.Backpack:FindFirstChild('GravityCoil') then
+				lp.Backpack:FindFirstChild('GravityCoil').Parent = char
+				char:FindFirstChild('GravityCoil').Parent = workspace
+				rme:FireServer()
+			else
+				rme:FireServer()
+			end
+		end
+	
+		if not running then
+			running = true
+			button.Text = "STOP"
+			_G.On = true
+			while _G.On == true do
+				task.wait()
+				gettool()
+				if not running then
+					break
+				end
+			end
+		else
+			running = false
+			button.Text = "SPAM GRAVITY COIL TOOL"
+			_G.On = false
+		end
+	end)
+	
+end
+local function OMWFG_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.TSPAM.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TSPAM"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local running = false -- Variable to keep track of whether the action is running
+	
+	button.MouseButton1Click:Connect(function()
+		local rme = workspace.Tools.Chest_Teleport.LidToggle
+		local lp = game.Players.LocalPlayer
+		local char = lp.Character
+	
+		function gettool()
+			if char:FindFirstChild('Teleport') then
+				char:FindFirstChild('Teleport').Parent = workspace
+				rme:FireServer()
+			elseif lp.Backpack:FindFirstChild('Teleport') then
+				lp.Backpack:FindFirstChild('Teleport').Parent = char
+				char:FindFirstChild('Teleport').Parent = workspace
+				rme:FireServer()
+			else
+				rme:FireServer()
+			end
+		end
+	
+		if not running then
+			running = true
+			button.Text = "STOP"
+			_G.On = true
+			while _G.On == true do
+				task.wait()
+				gettool()
+				if not running then
+					break
+				end
+			end
+		else
+			running = false
+			button.Text = "TELEPORT TOOL SPAM"
+			_G.On = false
+		end
+	end)
+	
+end
+local function BCQTT_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.CSSPAM.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_CSSPAM"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local running = false -- Variable to keep track of whether the action is running
+	
+	button.MouseButton1Click:Connect(function()
+		local rme = workspace.Tools.Chest_Cyclotron.LidToggle
+		local lp = game.Players.LocalPlayer
+		local char = lp.Character
+	
+		function gettool()
+			if char:FindFirstChild('Cyclotron') then
+				char:FindFirstChild('Cyclotron').Parent = workspace
+				rme:FireServer()
+			elseif lp.Backpack:FindFirstChild('Cyclotron') then
+				lp.Backpack:FindFirstChild('Cyclotron').Parent = char
+				char:FindFirstChild('Cyclotron').Parent = workspace
+				rme:FireServer()
+			else
+				rme:FireServer()
+			end
+		end
+	
+		if not running then
+			running = true
+			button.Text = "STOP"
+			_G.On = true
+			while _G.On == true do
+				task.wait()
+				gettool()
+				if not running then
+					break
+				end
+			end
+		else
+			running = false
+			button.Text = "CLOCK TOOL SPAM"
+			_G.On = false
+		end
+	end)
+	
+end
+local function WZOLPZU_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.SPEED1.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_SPEED1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	end)
+end
+local function GUJCZNB_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.SPEED2.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_SPEED2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end)
+end
+local function XYJOTTW_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.JUMP1.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_JUMP1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+	end)
+end
+local function YEYNZ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.JUMP2.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_JUMP2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end)
+end
+local function OCFY_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.flash.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_flash"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	
+	local hum = char:WaitForChild("Humanoid")
+	
+	button.MouseButton1Click:Connect(function()
+		ere = true
+		repeat wait()
+			game.Players:Chat("day")
+			wait(val)
+			game.Players:Chat("midday")
+			wait(val)
+			game.Players:Chat("night")
+			wait(val)
+		until ere == false
+	end)
+end
+local function HYKT_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.unflash.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_unflash"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	
+	local hum = char:WaitForChild("Humanoid")
+	
+	button.MouseButton1Click:Connect(function()
+		ere = false
+		repeat wait()
+			game.Players:Chat("day")
+			wait(val)
+			game.Players:Chat("midday")
+			wait(val)
+			game.Players:Chat("night")
+			wait(val)
+		until ere == false
+	end)
+end
+local function MGEXS_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.FDAY.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_FDAY"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	
+	local hum = char:WaitForChild("Humanoid")
+	
+	button.MouseButton1Click:Connect(function()
+		ere = false
+		repeat wait()
+			game.Players:Chat("day")
+			wait(val)
+			game.Players:Chat("day")
+			wait(val)
+			game.Players:Chat("day")
+			wait(val)
+		until ere == false
+	end)
+end
+local function TYSHN_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.fnihgt.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_fnihgt"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	
+	local hum = char:WaitForChild("Humanoid")
+	
+	button.MouseButton1Click:Connect(function()
+		ere = false
+		repeat wait()
+			game.Players:Chat("night")
+			wait(val)
+			game.Players:Chat("night")
+			wait(val)
+			game.Players:Chat("night")
+			wait(val)
+		until ere == false
+	end)
+end
+local function FWOQ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.digmuf.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_digmuf"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	
+	local hum = char:WaitForChild("Humanoid")
+	
+	button.MouseButton1Click:Connect(function()
+		game.Workspace.muffy.Tail.CanCollide = false
+		game.Workspace.muffy["Smooth Block Model"].CanCollide = false
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.muffy.Torso.CFrame * CFrame.new(0,-1,0) -- teleport to muffy
+		task.wait(0.3)
+		spawn(function()
+			local counter = 0 
+			while counter ~= 500 do -- when this condition is false(when the counter = 3) the loop will stop
+				game.Workspace.muffy.Torso.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-5,0) -- muffy teleport to you
+				task.wait(.01)
+				counter = counter + 1 -- adding one to the counter after every loop
+			end
+		end)
+	
+		task.wait(0.5)
+		spawn(function()
+			for _, v in pairs(game:GetService("Workspace"):FindFirstChild("                                                 "):GetDescendants()) do
+				if v:IsA("TouchTransmitter") or v:IsA("TouchInterest") then
+					firetouchinterest(game.Workspace.muffy.Torso, v:FindFirstAncestorWhichIsA("Part"),0) -- kills muffy
+					firetouchinterest(game.Workspace.muffy.Torso, v:FindFirstAncestorWhichIsA("Part"),1)
+	
+				end
+			end
+		end)
+	end)
+end
+local function PWIC_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.DIGSOCKY.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_DIGSOCKY"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	
+	local hum = char:WaitForChild("Humanoid")
+	
+	button.MouseButton1Click:Connect(function()
+		game.Workspace.socky.Tail.CanCollide = false
+		game.Workspace.socky["Smooth Block Model"].CanCollide = false
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.socky.Torso.CFrame * CFrame.new(0,-1,0) -- teleport to muffy
+		task.wait(0.3)
+		spawn(function()
+			local counter = 0 
+			while counter ~= 500 do -- when this condition is false(when the counter = 3) the loop will stop
+				game.Workspace.socky.Torso.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-5,0) -- muffy teleport to you
+				task.wait(.01)
+				counter = counter + 1 -- adding one to the counter after every loop
+			end
+		end)
+	
+		task.wait(0.5)
+		spawn(function()
+			for _, v in pairs(game:GetService("Workspace"):FindFirstChild("                                                 "):GetDescendants()) do
+				if v:IsA("TouchTransmitter") or v:IsA("TouchInterest") then
+					firetouchinterest(game.Workspace.socky.Torso, v:FindFirstAncestorWhichIsA("Part"),0) -- kills muffy
+					firetouchinterest(game.Workspace.socky.Torso, v:FindFirstAncestorWhichIsA("Part"),1)
+	
+				end
+			end
+		end)
+	end)
+end
+local function WRTJM_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.OLD ANIMATIONS.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_OLD ANIMATIONS"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character
+	
+	local hum = char:WaitForChild("Humanoid")
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character:BreakJoints()
+		game.Players.LocalPlayer.Character=nil
+		Connection = game.Workspace.DescendantAdded:Connect(function(c)
+			if c.Name == "Animate" then
+				c.Disabled=true        
+			end
+		end)
+		repeat wait() until game.Players.LocalPlayer.Character
+		Char = game.Players.LocalPlayer.Character
+		Died = game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Died:Connect(function()
+			Connection:Disconnect()
+			Died:Disconnect()
+		end)
+		wait(.1)
+		function waitForChild(parent, childName)
+			local child = parent:findFirstChild(childName)
+			if child then return child end
+			while true do
+				child = parent.ChildAdded:wait()
+				if child.Name==childName then return child end
+			end
+		end
+	
+		-- ANIMATION
+	
+		-- declarations
+	
+		local Figure = game.Players.LocalPlayer.Character
+		local Torso = waitForChild(Figure, "Torso")
+		local RightShoulder = waitForChild(Torso, "Right Shoulder")
+		local LeftShoulder = waitForChild(Torso, "Left Shoulder")
+		local RightHip = waitForChild(Torso, "Right Hip")
+		local LeftHip = waitForChild(Torso, "Left Hip")
+		local Neck = waitForChild(Torso, "Neck")
+		local Humanoid = waitForChild(Figure, "Humanoid")
+		local pose = "Standing"
+	
+		local toolAnim = "None"
+		local toolAnimTime = 0
+	
+		local jumpMaxLimbVelocity = 0.75
+	
+		-- functions
+	
+		function onRunning(speed)
+			if speed>0 then
+				pose = "Running"
+			else
+				pose = "Standing"
+			end
+		end
+	
+		function onDied()
+			pose = "Dead"
+		end
+	
+		function onJumping()
+			pose = "Jumping"
+		end
+	
+		function onClimbing()
+			pose = "Climbing"
+		end
+	
+		function onGettingUp()
+			pose = "GettingUp"
+		end
+	
+		function onFreeFall()
+			pose = "FreeFall"
+		end
+	
+		function onFallingDown()
+			pose = "FallingDown"
+		end
+	
+		function onSeated()
+			pose = "Seated"
+		end
+	
+		function onPlatformStanding()
+			pose = "PlatformStanding"
+		end
+	
+		function onSwimming(speed)
+			if speed>0 then
+				pose = "Running"
+			else
+				pose = "Standing"
+			end
+		end
+	
+		function moveJump()
+			RightShoulder.MaxVelocity = jumpMaxLimbVelocity
+			LeftShoulder.MaxVelocity = jumpMaxLimbVelocity
+			RightShoulder:SetDesiredAngle(3.14)
+			LeftShoulder:SetDesiredAngle(-3.14)
+			RightHip:SetDesiredAngle(0)
+			LeftHip:SetDesiredAngle(0)
+		end
+	
+	
+		-- same as jump for now
+	
+		function moveFreeFall()
+			RightShoulder.MaxVelocity = jumpMaxLimbVelocity
+			LeftShoulder.MaxVelocity = jumpMaxLimbVelocity
+			RightShoulder:SetDesiredAngle(3.14)
+			LeftShoulder:SetDesiredAngle(-3.14)
+			RightHip:SetDesiredAngle(0)
+			LeftHip:SetDesiredAngle(0)
+		end
+	
+		function moveSit()
+			RightShoulder.MaxVelocity = 0.15
+			LeftShoulder.MaxVelocity = 0.15
+			RightShoulder:SetDesiredAngle(3.14 /2)
+			LeftShoulder:SetDesiredAngle(-3.14 /2)
+			RightHip:SetDesiredAngle(3.14 /2)
+			LeftHip:SetDesiredAngle(-3.14 /2)
+		end
+	
+		function getTool()
+			for _, kid in ipairs(Figure:GetChildren()) do
+				if kid.className == "Tool" then return kid end
+			end
+			return nil
+		end
+	
+		function getToolAnim(tool)
+			for _, c in ipairs(tool:GetChildren()) do
+				if c.Name == "toolanim" and c.className == "StringValue" then
+					return c
+				end
+			end
+			return nil
+		end
+	
+		function animateTool()
+	
+			if (toolAnim == "None") then
+				RightShoulder:SetDesiredAngle(1.57)
+				return
+			end
+	
+			if (toolAnim == "Slash") then
+				RightShoulder.MaxVelocity = 0.5
+				RightShoulder:SetDesiredAngle(0)
+				return
+			end
+	
+			if (toolAnim == "Lunge") then
+				RightShoulder.MaxVelocity = 0.5
+				LeftShoulder.MaxVelocity = 0.5
+				RightHip.MaxVelocity = 0.5
+				LeftHip.MaxVelocity = 0.5
+				RightShoulder:SetDesiredAngle(1.57)
+				LeftShoulder:SetDesiredAngle(1.0)
+				RightHip:SetDesiredAngle(1.57)
+				LeftHip:SetDesiredAngle(1.0)
+				return
+			end
+		end
+	
+		function move(time)
+			local amplitude
+			local frequency
+	
+			if (pose == "Jumping") then
+				moveJump()
+				return
+			end
+	
+			if (pose == "FreeFall") then
+				moveFreeFall()
+				return
+			end
+	
+			if (pose == "Seated") then
+				moveSit()
+				return
+			end
+	
+			local climbFudge = 0
+	
+			if (pose == "Running") then
+				if (RightShoulder.CurrentAngle > 1.5 or RightShoulder.CurrentAngle < -1.5) then
+					RightShoulder.MaxVelocity = jumpMaxLimbVelocity
+				else  
+					RightShoulder.MaxVelocity = 0.15
+				end
+				if (LeftShoulder.CurrentAngle > 1.5 or LeftShoulder.CurrentAngle < -1.5) then
+					LeftShoulder.MaxVelocity = jumpMaxLimbVelocity
+				else  
+					LeftShoulder.MaxVelocity = 0.15
+				end
+				amplitude = 1
+				frequency = 9
+			elseif (pose == "Climbing") then
+				RightShoulder.MaxVelocity = 0.5
+				LeftShoulder.MaxVelocity = 0.5
+				amplitude = 1
+				frequency = 9
+				climbFudge = 3.14
+			else
+				amplitude = 0.1
+				frequency = 1
+			end
+	
+			desiredAngle = amplitude * math.sin(time*frequency)
+	
+			RightShoulder:SetDesiredAngle(desiredAngle + climbFudge)
+			LeftShoulder:SetDesiredAngle(desiredAngle - climbFudge)
+			RightHip:SetDesiredAngle(-desiredAngle)
+			LeftHip:SetDesiredAngle(-desiredAngle)
+	
+	
+			local tool = getTool()
+	
+			if tool then
+	
+				animStringValueObject = getToolAnim(tool)
+	
+				if animStringValueObject then
+					toolAnim = animStringValueObject.Value
+					-- message recieved, delete StringValue
+					animStringValueObject.Parent = nil
+					toolAnimTime = time + .3
+				end
+	
+				if time > toolAnimTime then
+					toolAnimTime = 0
+					toolAnim = "None"
+				end
+	
+				animateTool()
+	
+	
+			else
+				toolAnim = "None"
+				toolAnimTime = 0
+			end
+		end
+	
+	
+		-- connect events
+	
+		Humanoid.Died:connect(onDied)
+		Humanoid.Running:connect(onRunning)
+		Humanoid.Jumping:connect(onJumping)
+		Humanoid.Climbing:connect(onClimbing)
+		Humanoid.GettingUp:connect(onGettingUp)
+		Humanoid.FreeFalling:connect(onFreeFall)
+		Humanoid.FallingDown:connect(onFallingDown)
+		Humanoid.Seated:connect(onSeated)
+		Humanoid.PlatformStanding:connect(onPlatformStanding)
+		Humanoid.Swimming:connect(onSwimming)
+		-- main program
+	
+		local runService = game:service("RunService");
+	
+		while Figure.Parent~=nil do
+			local _, time = wait(0.1)
+			move(time)
+		end
+	end)
+end
+local function KAPOQN_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.NORMAL ANIMS.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_NORMAL ANIMS"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+local function EWJS_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.noclip.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_noclip"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local char = player.Character or player.CharacterAdded:Wait() -- Ensure the character is loaded
+	
+	local head = char:WaitForChild("Head")
+	local rightarm = char:WaitForChild("Right Arm")
+	local leftarm = char:WaitForChild("Left Arm")
+	local torso = char:WaitForChild("Torso")
+	local leftleg = char:WaitForChild("Left Leg")
+	local rightleg = char:WaitForChild("Right Leg")
+	
+	local isnoclipping = false
+	local noclipConnection
+	
+	local function setNoclip(value)
+		head.CanCollide = not value
+		rightarm.CanCollide = not value
+		leftarm.CanCollide = not value
+		torso.CanCollide = not value
+		leftleg.CanCollide = not value
+		rightleg.CanCollide = not value
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if not isnoclipping then
+			isnoclipping = true
+			button.Text = "STOP NOCLIP"
+			noclipConnection = game:GetService("RunService").Stepped:Connect(function()
+				setNoclip(true)
+			end)
+		else
+			isnoclipping = false
+			button.Text = "NOCLIP"
+			if noclipConnection then
+				noclipConnection:Disconnect()
+				noclipConnection = nil
+			end
+			setNoclip(false)
+		end
+	end)
+	
+end
+local function KZTRK_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.r15.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_r15"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		RESET = true
+		-- SWITCH RIG TYPE
+		local wspace = game:GetService('Workspace')
+		local avatareditorService = game:GetService('AvatarEditorService')
+		local starterGui = game:GetService('StarterGui')
+		local plrs = game:GetService('Players')
+		local plr = plrs.LocalPlayer
+		local becomeRigType
+		local becomeRigTypeStr
+		local getChr = function(p)
+			p = p or plr
+			return p.Character or wspace:FindFirstChild(p.Name) or p.CharacterAdded:wait()
+		end
+	
+		local getRoot = function(c)
+			c = c or getChr()
+			return c:FindFirstChild('HumanoidRootPart') or c:FindFirstChild('Torso') or c:FindFirstChild('UpperTorso')
+		end
+	
+		local hum = getChr():FindFirstChildOfClass('Humanoid')
+		if hum.RigType == Enum.HumanoidRigType.R6 then
+			becomeRigType = Enum.HumanoidRigType.R15
+			becomeRigTypeStr = 'R15'
+		end
+	
+		avatareditorService:PromptSaveAvatar(hum.HumanoidDescription, becomeRigType)
+		local notify = function(args)
+			starterGui:SetCore('SendNotification', args)
+		end
+		notify({
+			Title = 'Turning user into';
+			Text = becomeRigTypeStr;
+			Duration = 3;
+		})
+	
+		local result = avatareditorService.PromptSaveAvatarCompleted:wait()
+		if result == Enum.AvatarPromptResult.Success then
+			task.wait()
+			local orginCF = getRoot().CFrame
+			if RESET then
+				getChr():BreakJoints()
+			end
+			plr.CharacterAdded:wait()
+			getChr():WaitForChild('HumanoidRootPart')
+			getRoot().CFrame = orginCF
+			notify({
+				Title = 'Success!';
+				Text = string.format('User has became %s', becomeRigTypeStr);
+				Duration = 3;
+			})
+		end
+	end)
+end
+local function SNZWX_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.R6.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_R6"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		RESET = true
+		-- SWITCH RIG TYPE
+		local wspace = game:GetService('Workspace')
+		local avatareditorService = game:GetService('AvatarEditorService')
+		local starterGui = game:GetService('StarterGui')
+		local plrs = game:GetService('Players')
+		local plr = plrs.LocalPlayer
+		local becomeRigType
+		local becomeRigTypeStr
+		local getChr = function(p)
+			p = p or plr
+			return p.Character or wspace:FindFirstChild(p.Name) or p.CharacterAdded:wait()
+		end
+	
+		local getRoot = function(c)
+			c = c or getChr()
+			return c:FindFirstChild('HumanoidRootPart') or c:FindFirstChild('Torso') or c:FindFirstChild('UpperTorso')
+		end
+	
+		local hum = getChr():FindFirstChildOfClass('Humanoid')
+		if hum.RigType == Enum.HumanoidRigType.R15 then
+			becomeRigType = Enum.HumanoidRigType.R6
+			becomeRigTypeStr = 'R6'
+		end
+	
+		avatareditorService:PromptSaveAvatar(hum.HumanoidDescription, becomeRigType)
+		local notify = function(args)
+			starterGui:SetCore('SendNotification', args)
+		end
+		notify({
+			Title = 'Turning user into';
+			Text = becomeRigTypeStr;
+			Duration = 3;
+		})
+	
+		local result = avatareditorService.PromptSaveAvatarCompleted:wait()
+		if result == Enum.AvatarPromptResult.Success then
+			task.wait()
+			local orginCF = getRoot().CFrame
+			if RESET then
+				getChr():BreakJoints()
+			end
+			plr.CharacterAdded:wait()
+			getChr():WaitForChild('HumanoidRootPart')
+			getRoot().CFrame = orginCF
+			notify({
+				Title = 'Success!';
+				Text = string.format('User has became %s', becomeRigTypeStr);
+				Duration = 3;
+			})
+		end 
+	end)
+end
+local function AQTNKVV_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.voidsocky.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_voidsocky"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.muffy.Torso)
+		workspace.socky.Tail.CanCollide = false
+		workspace.socky.Torso.CanCollide = false
+		workspace.socky.Torso.CFrame = CFrame.new(9999999,9999999,9999999)
+		hrp.CFrame = ogcframe
+	end)
+end
+local function VAPAEV_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.void myf.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_void myf"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		function getowner(part)
+			for i=1,15 do
+				task.wait()
+				local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		local char=game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+		local hrp = char:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+		getowner(workspace.muffy.Torso)
+		workspace.socky.Tail.CanCollide = false
+		workspace.socky.Torso.CanCollide = false
+		workspace.socky.Torso.CFrame = CFrame.new(9999999,9999999,9999999)
+		hrp.CFrame = ogcframe
+	end)
+end
+local function AZYL_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.BRAEKACH.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_BRAEKACH"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		wait(0.5)
+		-- Script generated by SimpleSpy - credits to exx#9394
+	
+		local args = {
+			[1] = " ",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	
+		local args = {
+			[1] = " ",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	
+		local args = {
+			[1] = " ",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	
+		local args = {
+			[1] = " ",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	
+		local args = {
+			[1] = " ",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	
+		local args = {
+			[1] = " ",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))			
+	end)
+end
+local function XMVBPW_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.freeze.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_freeze"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+	end)
+end
+local function CRJXBA_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.UNFREEZE.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_UNFREEZE"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	end)
+end
+local function DKRJRP_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.veroipsm.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_veroipsm"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1273802616"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		local guitoshow = script.Parent.Parent.Parent.Parent.version
+		guitoshow.Enabled = true
+	end)
+end
+local function DVOAMDY_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.owners.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_owners"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()	
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1273802616"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+	
+		local guitoshow = script.Parent.Parent.Parent.Parent.owner
+		guitoshow.Enabled = true
+	end)
+end
+local function GDOKI_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.grabmuf.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_grabmuf"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()	
+		-- Function to wait for a player's character to load
+		function waitForCharacter(player)
+			-- Use WaitForChild instead of directly accessing player.Character
+			return player.Character or player.CharacterAdded:Wait()
+		end
+	
+		local player = game.Players.LocalPlayer
+		local character = waitForCharacter(player)
+		local hrp = character:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+	
+		-- Check if objects exist before accessing them
+		local leftLeg = game.Workspace:FindFirstChild("muffy") and game.Workspace.muffy:FindFirstChild("Left Leg")
+		local smoothBlockModel = game.Workspace:FindFirstChild("muffy") and game.Workspace.muffy:FindFirstChild("Smooth Block Model")
+		local torso = workspace:FindFirstChild("muffy") and workspace.muffy:FindFirstChild("Torso")
+	
+		-- Check if objects exist before interacting with them
+		if leftLeg and torso then
+			while wait() do
+				hrp.CFrame = leftLeg.CFrame
+				leftLeg.CanCollide = false
+			end
+		end
+	
+		if smoothBlockModel then
+			while wait() do
+				smoothBlockModel.CanCollide = false
+			end
+		end
+	
+		-- Function to handle character ownership
+		function getOwner(part)
+			for i = 1, 15 do
+				wait()  -- Make sure to use wait within a function
+				local char = waitForCharacter(player)
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		-- Ensure that workspace.muffy exists before accessing its properties
+		if torso then
+			getOwner(torso)
+			workspace.muffy.Humanoid.Health = 0
+			hrp.CFrame = ogcframe
+		end
+	end)
+end
+local function LWCZW_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.grabsock.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_grabsock"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()	
+		-- Function to wait for a player's character to load
+		function waitForCharacter(player)
+			-- Use WaitForChild instead of directly accessing player.Character
+			return player.Character or player.CharacterAdded:Wait()
+		end
+	
+		local player = game.Players.LocalPlayer
+		local character = waitForCharacter(player)
+		local hrp = character:WaitForChild('HumanoidRootPart')
+		local ogcframe = hrp.CFrame
+	
+		-- Check if objects exist before accessing them
+		local leftLeg = game.Workspace:FindFirstChild("socky") and game.Workspace.socky:FindFirstChild("Left Leg")
+		local smoothBlockModel = game.Workspace:FindFirstChild("socky") and game.Workspace.socky:FindFirstChild("Smooth Block Model")
+		local torso = workspace:FindFirstChild("socky") and workspace.socky:FindFirstChild("Torso")
+	
+		-- Check if objects exist before interacting with them
+		if leftLeg and torso then
+			while wait() do
+				hrp.CFrame = leftLeg.CFrame
+				leftLeg.CanCollide = false
+			end
+		end
+	
+		if smoothBlockModel then
+			while wait() do
+				smoothBlockModel.CanCollide = false
+			end
+		end
+	
+		-- Function to handle character ownership
+		function getOwner(part)
+			for i = 1, 15 do
+				wait()  -- Make sure to use wait within a function
+				local char = waitForCharacter(player)
+				local hrp = char:WaitForChild('HumanoidRootPart')
+				hrp.CFrame = part.CFrame
+			end
+		end
+	
+		-- Ensure that workspace.socky exists before accessing its properties
+		if torso then
+			getOwner(torso)
+			workspace.socky.Humanoid.Health = 0
+			hrp.CFrame = ogcframe
+		end
+	end)
+end
+local function IKLTXZ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.dingsound.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_dingsound"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local dingsound = workspace.Tools.Chest_Teleport.Reward.Model.Handle.OpenSound
+		dingsound:Play()
+	end)
+end
+local function NYVE_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.COIL SOUND.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_COIL SOUND"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local coilsound = game.Workspace.Tools.Chest_Acceleration_Coil.Reward.Model.Handle.CoilSound
+		coilsound:Play()
+	end)
+end
+local function KBTFHZ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.woosh.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_woosh"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local whooshsound = game.Workspace.Tools.Chest_Invisibility_Cloak.Reward.Model.Handle.WooshStart
+		
+		whooshsound:Play()
+	end)
+end
+local function TDOFA_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.woosh.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_woosh1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+			local c = game.Players.LocalPlayer.Character
+			local hrp = c.HumanoidRootPart
+	
+			for _, v in pairs(workspace:GetChildren()) do
+				if v.Name == 'Doge' and v:FindFirstChild('Torso') then
+					local t = v:FindFirstChild('Torso')
+					local og = hrp.CFrame
+	
+					for i = 1, 15 do
+						hrp.CFrame = t.CFrame
+						task.wait()
+					end
+	
+					t.CFrame = og
+					hrp.CFrame = og
+				end
+			end
+	
+			local target = game.Players.LocalPlayer
+			clg = true
+	
+			local function bringToTarget(objectName)
+				local object = workspace:FindFirstChild(objectName)
+				if object and object:FindFirstChild('Torso') then
+					object.Torso.CFrame = target.Character.HumanoidRootPart.CFrame * CFrame.new(0, 1, 0)
+				end
+			end
+	
+			bringToTarget("muffy")
+			bringToTarget("socky")
+			bringToTarget("girl")
+			bringToTarget("Cat")
+			bringToTarget("baby")
+	
+			clg = false
+	end)
+end
+local function BHDWJAG_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.ungmuf.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ungmuf"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+local function KBOCZ_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.unfsock.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_unfsock"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+local function KXLI_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.REJOIN.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_REJOIN"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1273802616"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Fedora Admin"; 
+			Text = "Rejoining the server"; 
+		})
+		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, plr)
+	end)
+end
+local function PUUTD_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.RESET.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_RESET"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1273802616"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+local function BKRSYAV_fake_script() -- Fake Script: StarterGui.Gui.Frame.ScrollingFrame.dc.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_dc"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()	
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1273802616"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+	
+		local guitoshow = script.Parent.Parent.Parent.Parent.discord
+		guitoshow.Enabled = true
+		wait(5)
+		guitoshow.Enabled = false
+	end)
+end
+local function MXRI_fake_script() -- Fake Script: StarterGui.Gui.Frame.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Frame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- LocalScript inside the Frame
+	
+	-- References to the Frame and the Mouse
+	local frame = script.Parent
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	-- Variables to store dragging state
+	local dragging = false
+	local dragInput
+	local dragStart
+	local startPos
+	
+	-- Function to update the position of the frame
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	-- InputBegan event to detect when dragging starts
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	-- InputChanged event to detect when the mouse moves
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	-- Heartbeat event to update the frame position while dragging
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+local function IMRES_fake_script() -- Fake Script: StarterGui.Gui.Frame.Close.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Close"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local guitoclose = script.Parent.Parent.Parent
+	local guitocloseforsure = script.Parent.Parent
+	
+	
+	button.MouseButton1Click:Connect(function()
+		print("Clicked close")
+		guitoclose.Enabled = false
+		guitoclose:Destroy()
+		guitocloseforsure.Visible = false
+		guitocloseforsure:Destroy()
+	end)
+end
+local function RSJLZLW_fake_script() -- Fake Script: StarterGui.Gui.Frame.MINIMUZE.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_MINIMUZE"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local guitoclose = script.Parent.Parent.Parent
+	local guitocloseforsure = script.Parent.Parent
+	local guitoshowwhenclose = script.Parent.Parent.Parent.open
+	
+	guitoshowwhenclose.Enabled = false
+	
+	local buttontoreopen = guitoshowwhenclose.TextButton
+	
+	button.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1273802616"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		guitoshowwhenclose.Enabled = true
+		guitoclose.Enabled = false
+	end)
+	
+	buttontoreopen.MouseButton1Click:Connect(function()
+		if guitoclose.Enabled == false and guitoshowwhenclose.Enabled == true then
+			guitoclose.Enabled = true
+		end
+	end)
+	
+	if guitoclose.Enabled == true then
+		guitoshowwhenclose.Enabled = false
+	end
+end
+local function LXSUAT_fake_script() -- Fake Script: StarterGui.Gui.version.TextLabel.ImageButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ImageButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local guitoclose = script.Parent.Parent.Parent
+	
+	
+	button.MouseButton1Click:Connect(function()
+		guitoclose.Enabled = false
+	end)
+end
+local function UQNHC_fake_script() -- Fake Script: StarterGui.Gui.version.TextLabel.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextLabel"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- LocalScript inside the Frame
+	
+	-- References to the Frame and the Mouse
+	local frame = script.Parent
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	-- Variables to store dragging state
+	local dragging = false
+	local dragInput
+	local dragStart
+	local startPos
+	
+	-- Function to update the position of the frame
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	-- InputBegan event to detect when dragging starts
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	-- InputChanged event to detect when the mouse moves
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	-- Heartbeat event to update the frame position while dragging
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+local function BVFMKO_fake_script() -- Fake Script: StarterGui.Gui.owner.TextLabel.ImageButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ImageButton1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local guitoclose = script.Parent.Parent.Parent
+	
+	
+	button.MouseButton1Click:Connect(function()
+		guitoclose.Enabled = false
+	end)
+end
+local function GSOL_fake_script() -- Fake Script: StarterGui.Gui.owner.TextLabel.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextLabel2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- LocalScript inside the Frame
+	
+	-- References to the Frame and the Mouse
+	local frame = script.Parent
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	-- Variables to store dragging state
+	local dragging = false
+	local dragInput
+	local dragStart
+	local startPos
+	
+	-- Function to update the position of the frame
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	-- InputBegan event to detect when dragging starts
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	-- InputChanged event to detect when the mouse moves
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	-- Heartbeat event to update the frame position while dragging
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+local function MGCY_fake_script() -- Fake Script: StarterGui.Gui.open.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://1273802616"
+		sound.Parent = game:GetService("SoundService")
+		sound:Play()
+		button.Enabled = false
+	end)
+end
+local function PMLTHDZ_fake_script() -- Fake Script: StarterGui.Gui.discord.TextLabel.ImageButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ImageButton2"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local button = script.Parent
+	local guitoclosed = script.Parent.Parent.Parent
+	
+	
+	button.MouseButton1Click:Connect(function()
+		guitoclosed.Enabled = false
+	end)
+end
+local function KLJXM_fake_script() -- Fake Script: StarterGui.Gui.discord.TextLabel.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextLabel4"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- LocalScript inside the Frame
+	
+	-- References to the Frame and the Mouse
+	local frame = script.Parent
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	-- Variables to store dragging state
+	local dragging = false
+	local dragInput
+	local dragStart
+	local startPos
+	
+	-- Function to update the position of the frame
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	-- InputBegan event to detect when dragging starts
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	-- InputChanged event to detect when the mouse moves
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	-- Heartbeat event to update the frame position while dragging
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+
+coroutine.wrap(VWDT_fake_script)()
+coroutine.wrap(ULNB_fake_script)()
+coroutine.wrap(VLCJPNT_fake_script)()
+coroutine.wrap(QBCZB_fake_script)()
+coroutine.wrap(YZCY_fake_script)()
+coroutine.wrap(GWKL_fake_script)()
+coroutine.wrap(WQKZXT_fake_script)()
+coroutine.wrap(DWUFQPQ_fake_script)()
+coroutine.wrap(OIUD_fake_script)()
+coroutine.wrap(JCITWJK_fake_script)()
+coroutine.wrap(IHKVBU_fake_script)()
+coroutine.wrap(HGYOKE_fake_script)()
+coroutine.wrap(YQWMGL_fake_script)()
+coroutine.wrap(CIBG_fake_script)()
+coroutine.wrap(EYLED_fake_script)()
+coroutine.wrap(ELLDSFH_fake_script)()
+coroutine.wrap(UMIUWFX_fake_script)()
+coroutine.wrap(TQWYE_fake_script)()
+coroutine.wrap(BKKDEE_fake_script)()
+coroutine.wrap(AOQIZX_fake_script)()
+coroutine.wrap(OQNZL_fake_script)()
+coroutine.wrap(CGVN_fake_script)()
+coroutine.wrap(VURDXIB_fake_script)()
+coroutine.wrap(TBTFASI_fake_script)()
+coroutine.wrap(XLUXE_fake_script)()
+coroutine.wrap(UZYC_fake_script)()
+coroutine.wrap(ZLNDW_fake_script)()
+coroutine.wrap(QQAQAQ_fake_script)()
+coroutine.wrap(JYECGCQ_fake_script)()
+coroutine.wrap(HDIY_fake_script)()
+coroutine.wrap(OMWFG_fake_script)()
+coroutine.wrap(BCQTT_fake_script)()
+coroutine.wrap(WZOLPZU_fake_script)()
+coroutine.wrap(GUJCZNB_fake_script)()
+coroutine.wrap(XYJOTTW_fake_script)()
+coroutine.wrap(YEYNZ_fake_script)()
+coroutine.wrap(OCFY_fake_script)()
+coroutine.wrap(HYKT_fake_script)()
+coroutine.wrap(MGEXS_fake_script)()
+coroutine.wrap(TYSHN_fake_script)()
+coroutine.wrap(FWOQ_fake_script)()
+coroutine.wrap(PWIC_fake_script)()
+coroutine.wrap(WRTJM_fake_script)()
+coroutine.wrap(KAPOQN_fake_script)()
+coroutine.wrap(EWJS_fake_script)()
+coroutine.wrap(KZTRK_fake_script)()
+coroutine.wrap(SNZWX_fake_script)()
+coroutine.wrap(AQTNKVV_fake_script)()
+coroutine.wrap(VAPAEV_fake_script)()
+coroutine.wrap(AZYL_fake_script)()
+coroutine.wrap(XMVBPW_fake_script)()
+coroutine.wrap(CRJXBA_fake_script)()
+coroutine.wrap(DKRJRP_fake_script)()
+coroutine.wrap(DVOAMDY_fake_script)()
+coroutine.wrap(GDOKI_fake_script)()
+coroutine.wrap(LWCZW_fake_script)()
+coroutine.wrap(IKLTXZ_fake_script)()
+coroutine.wrap(NYVE_fake_script)()
+coroutine.wrap(KBTFHZ_fake_script)()
+coroutine.wrap(TDOFA_fake_script)()
+coroutine.wrap(BHDWJAG_fake_script)()
+coroutine.wrap(KBOCZ_fake_script)()
+coroutine.wrap(KXLI_fake_script)()
+coroutine.wrap(PUUTD_fake_script)()
+coroutine.wrap(BKRSYAV_fake_script)()
+coroutine.wrap(MXRI_fake_script)()
+coroutine.wrap(IMRES_fake_script)()
+coroutine.wrap(RSJLZLW_fake_script)()
+coroutine.wrap(LXSUAT_fake_script)()
+coroutine.wrap(UQNHC_fake_script)()
+coroutine.wrap(BVFMKO_fake_script)()
+coroutine.wrap(GSOL_fake_script)()
+coroutine.wrap(MGCY_fake_script)()
+coroutine.wrap(PMLTHDZ_fake_script)()
+coroutine.wrap(KLJXM_fake_script)()
